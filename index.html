@@ -37,8 +37,8 @@
               <hr style="border:none;border-top:1px dotted lightgray;"/>
               <p style="text-align:justify"><!-- CV -->
                 Dr. Yushan Zheng received B.S, M.D and Ph.D degrees from <a href="http://remex.buaa.edu.cn" target="_blank">Remex Lab</a>, Image Processing Center, School of Astronautics, <a href="http://ev.buaa.edu.cn" target="_blank">Beihang University</a> in 2012, 2015 and 2019, repectively.
-                Now He is a post-doctoral researcher of Beijing Advanced Innovation Center for Biomedical Engineering, <a href="http://ev.buaa.edu.cn" target="_blank">Beihang University</a>.
-                His research interests include medical image processing, histopathological image retrieval, segmentation and normalization, digital pathology, deep learning, etc.
+                Now He is a post-doctoral researcher with Beijing Advanced Innovation Center for Biomedical Engineering, <a href="http://ev.buaa.edu.cn" target="_blank">Beihang University</a>.
+                His research interests include medical image processing, histopathological image retrieval, segmentation, normalization, digital pathology, deep learning, etc.
               </p>
               <hr style="border:none;border-top:1px dotted lightgray;"/>
               <p><!-- Contact -->
@@ -82,7 +82,7 @@
             <p>I am working on content-based histopathological image retrieval (CBHIR) apporachs. 
                 It helps pathologicals understand a region of histological image through searching for similar regions from a database containing diagnosed whole slide images. 
                 The project involves studies on color normalization, feature extraction, hashing methods that are approriate for histological images, and specific retrieval schemes from large-scale gigpixel image database. 
-                This research is supported by National Natural Science Foundations of China (61771031) and
+                This research is supported by National Natural Science Foundations of China (Grant No. 61901018 and 61771031) and
                 China Postdoctoral Science Foundation (No. 2019M650446) 
 
             </i></p>
@@ -132,16 +132,28 @@
                       Yushan Zheng, Zhiguo Jiang, Haopeng Zhang, Jun Shi, and Fengying Xie
                   </i></font>
                   <br>
-                      MICCAI 2019 Computational Pathology Workshop (COMPAY19)
+                      MICCAI Workshop -- Computational Pathology (COMPAY19)
                   <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_compay_2019_ssc.pdf" target="_blank">PDF</a> &nbsp;
                       <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_1Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_1Bib')">BibTeX</a> &nbsp;
                   </p>
                   <p id="zhengCOMPAY2019_1Abs" class="abstract" style="display: none;">
                       Color consistency is crucial to developing robust deep learning methods for histopathological image analysis. With the increasing use of digital histopathological images, the deep learning methods are likely developed based on the data from multiple medical centers. This requirement makes it a challenge task to normalize the color variance of histopathological images from different medical centers. In this paper, we proposed a novel color standardization module named stain standardization capsule (SSC) based on the paradigm of capsules network and the corresponding dynamic routing algorithm. The proposed module can learn and generate uniform stain separation outputs for histopathological images in various color appearance without the reference to manually selected template images. The SSC module is light and can be trained end-to-end with the application-driven CNN model. The proposed method was validated on two public datasets and compared with the state-of-the-art methods. The experimental results have demonstrated that the SSC module is effective in color normalization for histopathological images and achieves the best performance in the compared methods.
                   </p>
-
+                  <pre xml:space="preserve" id="zhengCOMPAY2019_1Bib" class="bibtex" style="display: none;">
+@inproceedings{zheng2019stain,
+  author    = {Zheng, Yushan and Jiang, Zhiguo and Zhang, Haopeng 
+                and Shi, Jun and Xie, Fengying},
+  title     = {Stain Standardization Capsule: A pre-processing module
+                for histopathological image analysis},
+  booktitle = {MICCAI 2019 Workshop -- COMPAY19},
+  year      = {2019},
+}              
+                  </pre>
                   <script language="javascript" type="text/javascript" xml:space="preserve">
                       hideblock('zhengCOMPAY2019_1Abs');
+                      hideblock('zhengCOMPAY2019_1Bib');
                   </script>
               </td>
             </tr> <!-- Paper End Here -->
@@ -158,16 +170,28 @@
                       Jun Shi, Ruoyu Wang, Yushan Zheng, Zhiguo Jiang, and Lanlan Yu
                   </i></font>
                   <br>
-                      MICCAI 2019 Computational Pathology Workshop (COMPAY19)
+                      MICCAI Workshop -- Computational Pathology (COMPAY19)
                   <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_compay_2019_gcn_cervix.pdf" target="_blank">PDF</a> &nbsp;
                       <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_2Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_2Bib')">BibTeX</a> &nbsp;
                   </p>
                   <p id="zhengCOMPAY2019_2Abs" class="abstract" style="display: none;">
                       Cervical cell classification is of important clinical significance in the screening of cervical cancer at early stages. In this paper, we present a novel cervical cell clas-sification method based on Graph Convolutional Network (GCN). In contrast with Convolutional Neural Networks (CNN) which can classify cervical cells through learned deep features, the proposed method uses GCN to explore the im-age-level potential relationship for improving the classification performance. Spe-cifically, each cervical cell image is represented by a pre-trained CNN. k-means clustering is performed on these CNN features and then the graph structure is constructed where each node is characterized by one cluster centroid. Conse-quently, the image-level relationship can be captured in terms of intrinsic cluster-ing structure. GCN is applied to propagate the underlying correlation of nodes and the relation-aware representation of GCN is incorporated to enrich the image-level CNN features. Experiments on the cervical cell image datasets demonstrate the excellent superiority of our method.
                   </p>
-
+                  <pre xml:space="preserve" id="zhengCOMPAY2019_2Bib" class="bibtex" style="display: none;">
+@inproceedings{shi2019graph,
+  author    = {Shi, Jun and Wang, Ruoyu and Zheng, Yushan 
+                and Jiang, Zhiguo and Yu, Lanlan},
+  title     = {Graph Convolutional Networks for Cervical 
+                Cell Classification},
+  booktitle = {MICCAI 2019 Workshop -- COMPAY19},
+  year      = {2019},
+}              
+                  </pre>
                   <script language="javascript" type="text/javascript" xml:space="preserve">
                       hideblock('zhengCOMPAY2019_2Abs');
+                      hideblock('zhengCOMPAY2019_2Bib');
                   </script>
               </td>
             </tr> <!-- Paper End Here -->
@@ -178,7 +202,7 @@
                 <td width="78%" valign="top">
                     <p>
                         <b>Encoding histopathological WSIs using GNN for scalable diagnostically relevant regions retrieval</b> 
-                        <!--<a href="http://ieeexplore.ieee.org/document/8265156/" target="_blank"><i class="fa fa-external-link"></i></a>-->
+                        <a href="https://doi.org/10.1007/978-3-030-32239-7_61" target="_blank"><i class="fa fa-external-link"></i></a>
                     <br>
                     <font size="3pt" face="Georgia"><i>
                         Yushan Zheng, Bonan Jiang, Jun Shi, Haopeng Zhang, and Fengying Xie
@@ -186,14 +210,31 @@
                     <br>
                         Medical Image Computing and Computer Assisted Interventions (MICCAI), 2019
                     <br>
+                        <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_miccai_2019.pdf" target="_blank">PDF</a> &nbsp;
                         <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengMICCAI2019Abs')">Abstract</a> &nbsp;
+                        <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengMICCAI2019Bib')">BibTeX</a> &nbsp;
                     </p>
                     <p id="zhengMICCAI2019Abs" class="abstract" style="display: none;">
                         The research on content-based histopathological image retrieval (CBHIR) has become popular in recent years. CBHIR systems provide auxiliary diagnosis information for pathologists by searching for and returning regions that are contently similar to the region of interest (ROI) from a pre-established database. To retrieve diagnostically relevant regions from a database that consists of histopathological whole slide images (WSIs) for query ROIs is challenging and yet significant for clinical applications. In this paper, we propose a novel CBHIR framework for regions retrieval from WSI-database based on hierarchical graph neural networks (GNNs). Compared to the present CBHIR framework, the structural information of WSI is preserved by the proposed model, which makes the retrieval framework more sensitive to regions that are similar in tissue distribution. Moreover, benefited from the hierarchical GNN structures, the proposed framework is scalable for both the size and shape variation of ROIs. It allows the pathologist defining the query region using free curves. Thirdly, the retrieval is achieved by binary codes and hashing methods, which makes it very efficient and thereby adequate for practical large-scale WSI-database. The proposed method is validated on a lung cancer dataset and compared to the state-of-the-art methods. The proposed method achieved precisions above 82.4% in the irregular region retrieval task, which are superior to the state-of-the-art methods. The average time of retrieval is 0.514 ms.
                     </p>
-
+                    <pre xml:space="preserve" id="zhengMICCAI2019Bib" class="bibtex" style="display: none;">
+@inproceedings{zheng2019encoding,
+  author    = {Zheng, Yushan and Jiang, Bonan and Shi, Jun 
+               and Zhang, Haopeng and Xie, Fengying},
+  title     = {Encoding Histopathological WSIs Using GNN for 
+               Scalable Diagnostically Relevant Regions Retrieval},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention 
+               -- MICCAI 2019},
+  year      = {2019},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {550--558},
+  doi       = {10.1007/978-3-030-32239-7_61}
+  }              
+                    </pre>
                     <script language="javascript" type="text/javascript" xml:space="preserve">
                         hideblock('zhengMICCAI2019Abs');
+                        hideblock('zhengMICCAI2019Bib');
                     </script>
                 </td>
             </tr> <!-- Paper End Here -->
@@ -207,7 +248,7 @@
                     <!-- <a href="http://ieeexplore.ieee.org/document/8265156/" target="_blank"><i class="fa fa-external-link"></i></a> -->
                     <br>
                     <font size="3pt" face="Georgia"><i>
-                        Shujiao Sun, Bonan Jiang, Yushan Zheng, Fengying Xie
+                        Shujiao Sun, Bonan Jiang, Yushan Zheng, and Fengying Xie
                     </i></font>
                     <br>
                         International Conference on Image and Graphics (ICIG), 2019
