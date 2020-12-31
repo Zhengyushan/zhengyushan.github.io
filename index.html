@@ -112,10 +112,50 @@
           <table class="group_tab"><tbody>
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
+                  <img src="images/src/article_zheng_tmi_2020.png" alt="Flowchart" width="200">
+              <td width="78%" valign="top">
+                  <p>
+                      <b>Diagnostic Regions Attention Network (DRA-Net) for Histopathology WSI Recommendation and Retrieval</b> 
+                      <a href="https://doi.org/10.1109/TMI.2020.3046636" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                      Yushan Zheng, Zhiguo Jiang*, Jun Shi, Fengying Xie, Haopeng Zhang, Huai Jianguo, Cao Ming, and Yang Xiaomiao
+                  </i></font>
+                  <br>
+                      IEEE Transactions on Medical Imaging, 2020
+                  <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2020.pdf" target="_blank">PDF</a> &nbsp;
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengTMI2020_Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengTMI2020_Bib')">BibTeX</a> &nbsp;
+                      <i class="fa fa-github"></i> <a href="https://github.com/Zhengyushan/dpathnet" target="_blank">Code</a> &nbsp;
+                  </p>
+                  <p id="zhengTMI2020_Abs" class="abstract" style="display: none;">
+                    The development of whole slide imaging techniques and online digital pathology platforms have accelerated the popularization of telepathology for remote tumor diagnoses. During a diagnosis, the behavior information of the pathologist can be recorded by the platform and then archived with the digital case. The browsing path of the pathologist on the WSI is one of the valuable information in the digital database because the image content within the path is expected to be highly correlated with the diagnosis report of the pathologist. In this paper, we proposed a novel approach for computer-assisted cancer diagnosis named session-based histopathology image recommendation (SHIR) based on the browsing paths on WSIs. To achieve the SHIR, we developed a novel diagnostic regions attention network (DRA-Net) to learn the pathology knowledge from the image content associated with the browsing paths. The DRA-Net does not rely on the pixel-level or region-level annotations of pathologists. All the data for training can be automatically collected by the digital pathology platform without interrupting the pathologists' diagnoses. The proposed approaches were evaluated on a gastric dataset containing 983 cases within 5 categories of gastric lesions. The quantitative and qualitative assessments on the dataset have demonstrated the proposed SHIR framework with the novel DRA-Net is effective in recommending diagnostically relevant cases for auxiliary diagnosis. The MRR and MAP for the recommendation are respectively 0.816 and 0.836 on the gastric dataset.
+                  </p>
+                  <pre xml:space="preserve" id="zhengTMI2020_Bib" class="bibtex" style="display: none;">
+@Article{zheng2020diagnostic,
+  author  = {Zheng, Yushan and Jiang, Zhiguo and Shi, Jun and Xie, Fengying and
+             Zhang, Haopeng and Huai, Jianguo and Cao, Ming and Yang, Xiaomiao},
+  title   = {Diagnostic Regions Attention Network (DRA-Net) for Histopathology 
+             WSI Recommendation and Retrieval},
+  journal = {IEEE Transactions on Medical Imaging},
+  year    = {2020},
+  doi     = {10.1109/TMI.2020.3046636},
+} 
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                      hideblock('zhengTMI2020_Abs');
+                      hideblock('zhengTMI2020_Bib');
+                  </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_miccai_2020.png" alt="Flowchart" width="200">
               <td width="78%" valign="top">
                   <p>
                       <b>Tracing Diagnosis Paths on Histopathology WSIs for Diagnostically Relevant Case Recommendation</b> 
+                      <a href="https://doi.org/10.1007/978-3-030-59722-1_44" target="_blank"><i class="fa fa-external-link"></i></a>
                   <br>
                   <font size="3pt" face="Georgia"><i>
                       Yushan Zheng*, Zhiguo Jiang, Haopeng Zhang, Fengying Xie, and Jun Shi
@@ -127,18 +167,22 @@
                       <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengMICCAI2020_Abs')">Abstract</a> &nbsp;
                       <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengMICCAI2020_Bib')">BibTeX</a> &nbsp;
                       <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_miccai_2020_sup.pdf" target="_blank">Supplementary Material</a> &nbsp;
+                      <i class="fa fa-github"></i> <a href="https://github.com/Zhengyushan/dpathnet" target="_blank">Code</a> &nbsp;
                   </p>
                   <p id="zhengMICCAI2020_Abs" class="abstract" style="display: none;">
                     Telepathology has enabled the remote cancer diagnosis based on digital pathological whole slide images (WSIs). During the diagnosis, the behavior information of the pathologist can be recorded by the platform and then archived with the digital cases. The diagnosis path of the pathologist on a WSI is valuable information since the image content within the path is highly correlated with the diagnosis report of the pathologist. In this paper, we proposed a novel diagnosis path network (DPathNet). DPathNet utilizes the diagnosis paths of pathologists on the WSIs as the supervision to learn the pathology knowledge from the image content. Based on the DPathNet, we develop a novel approach for computer-aided cancer diagnosis named session-based histopathology image recommendation (SHIR). SHIR summaries the information of a WSI while the pathologist browsing the WSI and actively recommends the relevant cases within similar image content from the database. The proposed approaches are evaluated on a gastric dataset containing 983 cases within 5 categories of gastric lesions. The experimental results have demonstrated the effectiveness of the DPathNet to the SHIR task and the supervision of the diagnosis path is sufficient to train the DPathNet. The MRR and MAP of the proposed SHIR framework are respectively 0.741 and 0.777 on the gastric dataset.
                   </p>
                   <pre xml:space="preserve" id="zhengMICCAI2020_Bib" class="bibtex" style="display: none;">
 @inproceedings{zheng2020tracing,
-  author    = {Zheng, Yushan and Jiang, Zhiguo and Zhang, Haopeng and Xie, Fengying and Shi, Jun},
+  author    = {Zheng, Yushan and Jiang, Zhiguo and Zhang, Haopeng and 
+               Xie, Fengying and Shi, Jun},
   title     = {Tracing Diagnosis Paths on Histopathology WSIs for 
                Diagnostically Relevant Case Recommendation},
   booktitle = {Medical Image Computing and Computer Assisted Intervention 
                -- MICCAI 2020},
   year      = {2020},
+  pages     = {459--469},
+  doi       = {10.1007/978-3-030-59722-1_44},
 }              
                   </pre>
                   <script language="javascript" type="text/javascript" xml:space="preserve">
