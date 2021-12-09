@@ -106,8 +106,134 @@
         <i class="fa fa-link"><a href="#" target="_blank"> Supplementary</a></i> &nbsp;
         -->
         <tr><td> <h2>Publications</h2> </td></tr>
+        <tr><td> <h3>2022</h3> </td></tr>
         <tr><td> <!-- ALL Paper Begin Here -->
           <table class="group_tab"><tbody>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                  <img src="images/src/article_zheng_mia_2021.png" alt="Flowchart" width="200">
+              <td width="78%" valign="top">
+                  <p>
+                      <b>Encoding Histopathology Whole Slide Images with Location-aware Graphs for Diagnostically Relevant Regions Retrieval</b> 
+                      <a href="https://doi.org/10.1016/j.media.2021.102308" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                      Yushan Zheng, Zhiguo Jiang*, Jun Shi, Fengying Xie, Haopeng Zhang, Wei Luo, Dingyi Hu, Shujiao Sun, Zhongmin Jiang, and Chenghai Xue
+                  </i></font>
+                  <br>
+                      Medical Image Analysis, 2022
+                  <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_mia_2021.pdf" target="_blank">PDF</a> &nbsp;
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengMIA2021_Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengMIA2021_Bib')">BibTeX</a> &nbsp;
+                      <i class="fa fa-github"></i> <a href="https://github.com/Zhengyushan/lagenet" target="_blank">Code</a> &nbsp;
+                  </p>
+                  <p id="zhengMIA2021_Abs" class="abstract" style="display: none;">
+                    Content-based histopathological image retrieval (CBHIR) has become popular in recent years in histopathological image analysis. CBHIR systems provide auxiliary diagnosis information for pathologists by searching for and returning regions that are contently similar to the region of interest (ROI) from a pre-established database. It is challenging and yet significant in clinical applications to retrieve diagnostically relevant regions from a database consisting of histopathological whole slide images (WSIs). In this paper, we propose a novel framework for regions retrieval from WSI database based on location-aware graphs and deep hash techniques. Compared to the present CBHIR framework, both structural information and global location information of ROIs in the WSI are preserved by graph convolution and self-attention operations, which makes the retrieval framework more sensitive to regions that are similar in tissue distribution. Moreover, benefited from the graph structure, the proposed framework has good scalability for both the size and shape variation of ROIs. It allows the pathologist to define query regions using free curves according to the appearance of tissue. Thirdly, the retrieval is achieved based on the hash technique, which ensures the framework is efficient and adequate for practical large-scale WSI database. The proposed method was evaluated on an in-house endometrium dataset with 2650 WSIs and the public ACDC-LungHP dataset. The experimental results have demonstrated that the proposed method achieved a mean average precision above 0.667 on the  endometrium dataset and above 0.869 on the ACDC-LungHP dataset in the task of irregular region retrieval, which are superior to the state-of-the-art methods. The average retrieval time from a database containing 1855 WSIs is 0.752 ms.</p>
+                  <pre xml:space="preserve" id="zhengMIA2021_Bib" class="bibtex" style="display: none;">
+@Article{zheng2022encoding,
+  author  = {Zheng, Yushan and Jiang, Zhiguo and Shi, Jun and Xie, Fengying and Zhang, Haopeng and 
+              Luo, Wei and Hu, Dingyi and Sun, Shujiao and Jiang, Zhongmin and Xue, Chenghai},
+  title   = {Encoding histopathology whole slide images with location-aware graphs for diagnostically relevant regions retrieval},
+  journal = {Medical Image Analysis},
+  year    = {2022},
+  volumn  = {76},
+  pages   = {102308},
+  doi     = {https://doi.org/10.1016/j.media.2021.102308},
+}
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                      hideblock('zhengTMI2020_Abs');
+                      hideblock('zhengTMI2020_Bib');
+                  </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                  <img src="images/src/article_li_spiemi_2022.png" alt="Flowchart" width="200">
+              <td width="78%" valign="top">
+                  <p>
+                      <b>Weakly Supervised Histopathological Image Representation Learning based on Contrastive Dynamic Clustering</b> 
+                      <!-- <a href="https://doi.org/10.1016/j.media.2021.102308" target="_blank"><i class="fa fa-external-link"></i></a> -->
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                      Jun Li, Zhiguo Jiang, Yushan Zheng*, Haopeng Zhang, Jun Shi, Dingyi Hu,  Wei Luo, Zhongmin Jiang, and Chenghai Xue
+                  </i></font>
+                  <br>
+                      SPIE Medical Imaging, 2022
+                  <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_li_spiemi_2022.pdf" target="_blank">PDF</a> &nbsp;
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('liSPIEMI2022_Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('liSPIEMI2022_Bib')">BibTeX</a> &nbsp;
+                      <i class="fa fa-github"></i> <a href="https://github.com/junl21/cdc" target="_blank">Code</a> &nbsp;
+                  </p>
+                  <p id="liSPIEMI2022_Abs" class="abstract" style="display: none;">
+                    Feature representations of histopathology whole slide images (WSIs) are crucial to the downstream applications
+                    for computer-aided cancer diagnosis, including whole slide image classification, region of interest detection, hash
+                    retrieval, prognosis analysis, and other high-level inference tasks. State-of-the-art methods for whole slide image
+                    feature extraction generally rely on supervised learning algorithms based on fine-grained manual annotations,
+                    unsupervised learning algorithms without annotation, or directly use pre-trained features. At present, there is
+                    a lack of research on weakly supervised feature learning methods that only utilize WSI-level labeling. In this
+                    paper, we propose a weakly supervised framework that learns the feature representations of various lesion areas
+                    from histopathology whole slide images. The proposed framework consists of a contrastive learning network as
+                    the backbone and a designed contrastive dynamic clustering (CDC) module to embedding the lesion information
+                    into the feature representations. The proposed method was evaluated on a large scale endometrial whole slide
+                    image dataset. The experimental results have demonstrated that our method can learn discriminative feature
+                    representations for histopathology image classification and the quantitative performance of our method is close
+                    to the fully-supervision learning methods</p>
+                  <pre xml:space="preserve" id="liSPIEMI2022_Bib" class="bibtex" style="display: none;">
+@inproceedings{li2021weakly,
+  author    = {Jun Li, Zhiguo Jiang, Yushan Zheng, Haopeng Zhang, Jun Shi, Dingyi Hu,
+               Wei Luo, Zhongmin Jiang, and Chenghai Xue},
+  title     = {Weakly Supervised Histopathological Image Representation Learning based on Contrastive Dynamic Clustering},
+  booktitle = {SPEI Medical Imaging 2022},
+  year      = {2022},
+}
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                      hideblock('zhengTMI2020_Abs');
+                      hideblock('zhengTMI2020_Bib');
+                  </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+            <tr><td> <h3>2021</h3> </td></tr>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                  <img src="images/src/article_luo_icig_2021.png" alt="Flowchart" width="200">
+              <td width="78%" valign="top">
+                  <p>
+                      <b>Frequency-based convolutional neural network for efficient segmentation of histopathology whole slide images</b> 
+                      <a href="https://link.springer.com/chapter/10.1007/978-3-030-87358-5_47" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Wei Luo, Yushan Zheng, Dingyi Hu, Jun Li, Chenghai Xue, and Zhiguo Jiang
+                  </i></font>
+                  <br>
+                      International Conference on Image and Graphics (ICIG) 2021
+                  <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_luo_icig_2021.pdf" target="_blank">PDF</a> &nbsp;
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('luoICIG2021_Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('luoICIG2021_Bib')">BibTeX</a> &nbsp;
+                  </p>
+                  <p id="luoICIG2021_Abs" class="abstract" style="display: none;">
+                    CNN-based methods for WSI segmentation are time-consuming under the limits of communication bandwidth and memory usage, due to the high pixel resolution of WSIs. In this paper, we propose a novel framework for accelerating the segmentation of digital histopathology WSIs in the frequency domain. Based on the characteristics of the JPEG format in data storage and transmission on the existing digital histopathological diagnosis cloud platform, we extract DCT coefficients from the JEPG decoding and compress them into the DCT feature cubes by a frequency selection block. Based on the DCT feature cubes, we propose an extremely light-weighted model named Efficient DCT-Network (EDCT-Net). The size of the input data, as well as the bandwidth requirement for CPU-GPU transmitting, for EDCT-net reduces by 96% compared to the common CNN-based methods. And, the number of model parameters and the floating-point operations (FLOPs) for EDCT-Net decreases by 98% and 94% compared to the baseline method. The experimental results have demonstrated that our method achieves a Dice score of 0.811 with only 8 frequency channels in the task of endometrial histopathology WSI segmentation, which is comparable with state-of-the-art methods.
+                  </p>
+                  <pre xml:space="preserve" id="luoICIG2021_Bib" class="bibtex" style="display: none;">
+@inproceedings{luo2021frequency,
+  title      = "Frequency-Based Convolutional Neural Network for Efficient Segmentation of Histopathology Whole Slide Images.",
+  author     = "Wei {Luo} and Yushan {Zheng} and Dingyi {Hu} and Jun {Li} and Chenghai {Xue} and Zhiguo {Jiang}",
+  booktitle  = "International Conference on Image and Graphics",
+  pages      = "584--596",
+  year       = "2021"
+}
+                    
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                      hideblock('zhengTMI2020_Abs');
+                      hideblock('zhengTMI2020_Bib');
+                  </script>
+              </td>
+            </tr> <!-- Paper End Here -->
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_tmi_2020.png" alt="Flowchart" width="200">
@@ -120,7 +246,7 @@
                       Yushan Zheng, Zhiguo Jiang*, Jun Shi, Fengying Xie, Haopeng Zhang, Huai Jianguo, Cao Ming, and Yang Xiaomiao
                   </i></font>
                   <br>
-                      IEEE Transactions on Medical Imaging, 2020
+                      IEEE Transactions on Medical Imaging, 2021
                   <br>
                       <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2020.pdf" target="_blank">PDF</a> &nbsp;
                       <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengTMI2020_Abs')">Abstract</a> &nbsp;
@@ -150,6 +276,48 @@
                   </script>
               </td>
             </tr> <!-- Paper End Here -->
+            
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                  <img src="images/src/article_zheng_jbhi_2020.png" alt="Flowchart" width="200">
+              <td width="78%" valign="top">
+                  <p>
+                      <b>Stain standardization capsule for application-driven histopathological image normalization</b> 
+                      <a href="https://ieeexplore.ieee.org/document/9050897/" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                      Yushan Zheng, Zhiguo Jiang*, Haopeng Zhang, Fengying Xie, Dingyi Hu, Shujiao Sun, Jun Shi, and Chenghai Xue
+                  </i></font>
+                  <br>
+                      IEEE Journal of Biomedical and Health Informatics, 2021
+                  <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_jbhi_2020.pdf" target="_blank">PDF</a> &nbsp;
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengJBHI2020_Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengJBHI2020_Bib')">BibTeX</a> &nbsp;
+                      <i class="fa fa-github"></i> <a href="https://github.com/Zhengyushan/ssc" target="_blank">Code</a> &nbsp;
+                  </p>
+                  <p id="zhengJBHI2020_Abs" class="abstract" style="display: none;">
+                    Color consistency is crucial to developing robust deep learning methods for histopathological image analysis. With the increasing application of digital histopathological slides, the deep learning methods are probably developed based on the data from multiple medical centers. This requirement makes it a challenging task to normalize the color variance of histopathological images from different medical centers. In this paper, we propose a novel color standardization module named stain standardization capsule based on the capsule network and the corresponding dynamic routing algorithm. The proposed module can learn and generate uniform stain separation outputs for histopathological images in various color appearance without the reference to manually selected template images. The proposed module is light and can be jointly trained with the application-driven CNN model. The proposed method was validated on three histopathology datasets and a cytology dataset, and was compared with state-of-the-art methods. The experimental results have demonstrated that the SSC module is effective in improving the performance of histopathological image analysis and has achieved the best performance in the compared methods.
+                  </p>
+                  <pre xml:space="preserve" id="zhengJBHI2020_Bib" class="bibtex" style="display: none;">
+@article{zheng2020stain,
+  author    = {Zheng, Yushan and Jiang, Zhiguo and Zhang, Haopeng and Xie, Fengying and Hu, Dingyi 
+               and Sun, Shujiao and Shi, Jun and Xue, Chenghai},
+  title     = {Stain standardization capsule for application-driven histopathological image normalization},
+  journal   = {IEEE Journal of Biomedical and Health Informatics},
+  volume    = {25}, 
+  number    = {2}, 
+  pages     = {337--347}
+  year      = {2021},
+}              
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                      hideblock('zhengJBHI2020_Abs');
+                      hideblock('zhengJBHI2020_Bib');
+                  </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+            <tr><td> <h3>2020</h3> </td></tr>
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_miccai_2020.png" alt="Flowchart" width="200">
@@ -189,46 +357,6 @@
                   <script language="javascript" type="text/javascript" xml:space="preserve">
                       hideblock('zhengMICCAI2020_Abs');
                       hideblock('zhengMICCAI2020_Bib');
-                  </script>
-              </td>
-            </tr> <!-- Paper End Here -->
-            <tr> <!-- An Paper -->
-              <td width="22%" valign="top"><p>
-                  <img src="images/src/article_zheng_jbhi_2020.png" alt="Flowchart" width="200">
-              <td width="78%" valign="top">
-                  <p>
-                      <b>Stain standardization capsule for application-driven histopathological image normalization</b> 
-                      <a href="https://ieeexplore.ieee.org/document/9050897/" target="_blank"><i class="fa fa-external-link"></i></a>
-                  <br>
-                  <font size="3pt" face="Georgia"><i>
-                      Yushan Zheng, Zhiguo Jiang*, Haopeng Zhang, Fengying Xie, Dingyi Hu, Shujiao Sun, Jun Shi, and Chenghai Xue
-                  </i></font>
-                  <br>
-                      IEEE Journal of Biomedical and Health Informatics, 2020
-                  <br>
-                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_jbhi_2020.pdf" target="_blank">PDF</a> &nbsp;
-                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengJBHI2020_Abs')">Abstract</a> &nbsp;
-                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengJBHI2020_Bib')">BibTeX</a> &nbsp;
-                      <i class="fa fa-github"></i> <a href="https://github.com/Zhengyushan/ssc" target="_blank">Code</a> &nbsp;
-                  </p>
-                  <p id="zhengJBHI2020_Abs" class="abstract" style="display: none;">
-                    Color consistency is crucial to developing robust deep learning methods for histopathological image analysis. With the increasing application of digital histopathological slides, the deep learning methods are probably developed based on the data from multiple medical centers. This requirement makes it a challenging task to normalize the color variance of histopathological images from different medical centers. In this paper, we propose a novel color standardization module named stain standardization capsule based on the capsule network and the corresponding dynamic routing algorithm. The proposed module can learn and generate uniform stain separation outputs for histopathological images in various color appearance without the reference to manually selected template images. The proposed module is light and can be jointly trained with the application-driven CNN model. The proposed method was validated on three histopathology datasets and a cytology dataset, and was compared with state-of-the-art methods. The experimental results have demonstrated that the SSC module is effective in improving the performance of histopathological image analysis and has achieved the best performance in the compared methods.
-                  </p>
-                  <pre xml:space="preserve" id="zhengJBHI2020_Bib" class="bibtex" style="display: none;">
-@article{zheng2020stain,
-  author    = {Zheng, Yushan and Jiang, Zhiguo and Zhang, Haopeng and Xie, Fengying and Hu, Dingyi 
-               and Sun, Shujiao and Shi, Jun and Xue, Chenghai},
-  title     = {Stain standardization capsule for application-driven histopathological image normalization},
-  journal   = {IEEE Journal of Biomedical and Health Informatics},
-  volume    = {25}, 
-  number    = {2}, 
-  pages     = {337--347}
-  year      = {2021},
-}              
-                  </pre>
-                  <script language="javascript" type="text/javascript" xml:space="preserve">
-                      hideblock('zhengJBHI2020_Abs');
-                      hideblock('zhengJBHI2020_Bib');
                   </script>
               </td>
             </tr> <!-- Paper End Here -->
@@ -306,6 +434,7 @@
                   </script>
               </td>
             </tr> <!-- Paper End Here -->
+            <tr><td> <h3>2019</h3> </td></tr>
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_compay_2019_1.png" alt="Flowchart" width="200">
@@ -341,44 +470,6 @@
                   <script language="javascript" type="text/javascript" xml:space="preserve">
                       hideblock('zhengCOMPAY2019_1Abs');
                       hideblock('zhengCOMPAY2019_1Bib');
-                  </script>
-              </td>
-            </tr> <!-- Paper End Here -->
-            <tr> <!-- An Paper -->
-              <td width="22%" valign="top"><p>
-                  <img src="images/src/article_zheng_compay_2019_2.png" alt="Flowchart" width="200">
-              </p></td>
-              <td width="78%" valign="top">
-                  <p>
-                      <b>Graph Convolutional Networks for Cervical Cell Classification</b> 
-                      <a href="https://openreview.net/forum?id=S1gX_tlc-S" target="_blank"><i class="fa fa-external-link"></i></a>
-                  <br>
-                  <font size="3pt" face="Georgia"><i>
-                      Jun Shi*, Ruoyu Wang, Yushan Zheng, Zhiguo Jiang, and Lanlan Yu
-                  </i></font>
-                  <br>
-                      MICCAI Workshop -- Computational Pathology (COMPAY19)
-                  <br>
-                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_compay_2019_gcn_cervix.pdf" target="_blank">PDF</a> &nbsp;
-                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_2Abs')">Abstract</a> &nbsp;
-                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_2Bib')">BibTeX</a> &nbsp;
-                  </p>
-                  <p id="zhengCOMPAY2019_2Abs" class="abstract" style="display: none;">
-                      Cervical cell classification is of important clinical significance in the screening of cervical cancer at early stages. In this paper, we present a novel cervical cell clas-sification method based on Graph Convolutional Network (GCN). In contrast with Convolutional Neural Networks (CNN) which can classify cervical cells through learned deep features, the proposed method uses GCN to explore the im-age-level potential relationship for improving the classification performance. Spe-cifically, each cervical cell image is represented by a pre-trained CNN. k-means clustering is performed on these CNN features and then the graph structure is constructed where each node is characterized by one cluster centroid. Conse-quently, the image-level relationship can be captured in terms of intrinsic cluster-ing structure. GCN is applied to propagate the underlying correlation of nodes and the relation-aware representation of GCN is incorporated to enrich the image-level CNN features. Experiments on the cervical cell image datasets demonstrate the excellent superiority of our method.
-                  </p>
-                  <pre xml:space="preserve" id="zhengCOMPAY2019_2Bib" class="bibtex" style="display: none;">
-@inproceedings{shi2019graph,
-  author    = {Shi, Jun and Wang, Ruoyu and Zheng, Yushan 
-                and Jiang, Zhiguo and Yu, Lanlan},
-  title     = {Graph Convolutional Networks for Cervical 
-                Cell Classification},
-  booktitle = {MICCAI 2019 Workshop -- COMPAY19},
-  year      = {2019},
-}              
-                  </pre>
-                  <script language="javascript" type="text/javascript" xml:space="preserve">
-                      hideblock('zhengCOMPAY2019_2Abs');
-                      hideblock('zhengCOMPAY2019_2Bib');
                   </script>
               </td>
             </tr> <!-- Paper End Here -->
@@ -512,6 +603,7 @@
                     </script>
                 </td>
             </tr> <!-- Paper End Here -->
+            <tr><td> <h3>2018</h3> </td></tr>
             <tr> <!-- An Paper -->
                 <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_tmi_2018.png" alt="Flowchart" width="200">
@@ -552,56 +644,6 @@
                   <script language="javascript" type="text/javascript" xml:space="preserve">
                     hideblock('zhengTMI2018Abs');
                     hideblock('zhengTMI2018Bib');
-                  </script>
-                </td>
-            </tr> <!-- Paper End Here -->
-
-            <tr> <!-- An Paper -->
-                <td width="22%" valign="top"><p>
-                  <img src="images/src/article_ma_jbhi_2016.jpg" alt="Result" width="200">
-                </p></td>
-                <td width="78%" valign="top">
-                  <p>
-                    <b>Generating Region Proposals for Histopathological Whole Slide Image Retrieval</b> <a href="http://www.sciencedirect.com/science/article/pii/S0169260717312154" target="_blank"><i class="fa fa-external-link"></i></a>
-                    <br>
-                    <font size="3pt" face="Georgia"><i>
-                        Yibing Ma, Zhiguo Jiang, Haopeng Zhang*, Fengying Xie, Yushan Zheng, Huaqiang Shi, Yu Zhao and Jun Shi
-                    </i></font>
-                    <br>
-                      Computer Methods and Programs in Biomedicine, 2018
-                    <br>
-                    <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('maCMBP2018Abs')">Abstract</a> &nbsp;
-                    <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('maCMBP2018Bib')">BibTeX</a> &nbsp;
-                  </p>
-                  <p id="maCMBP2018Abs" class="abstract" style="display: none;">
-                      <b>Background and objective</b><br>
-                      Content-based image retrieval is an effective method for histopathological image analysis. However, given a database of huge whole slide images (WSIs), acquiring appropriate region-of-interests (ROIs) for training is significant and difficult. Moreover, histopathological images can only be annotated by pathologists, resulting in the lack of labeling information. Therefore, it is an important and challenging task to generate ROIs from WSI and retrieve image with few labels.
-                      <br><br>
-                      <b>Methods</b><br>
-                      This paper presents a novel unsupervised region proposing method for histopathological WSI based on Selective Search. Specifically, the WSI is over-segmented into regions which are hierarchically merged until the WSI becomes a single region. Nucleus-oriented similarity measures for region mergence and Nucleus–Cytoplasm color space for histopathological image are specially defined to generate accurate region proposals. Additionally, we propose a new semi-supervised hashing method for image retrieval. The semantic features of images are extracted with Latent Dirichlet Allocation and transformed into binary hashing codes with Supervised Hashing.
-                      <br><br>
-                      <b>Results</b><br>
-                      The methods are tested on a large-scale multi-class database of breast histopathological WSIs. The results demonstrate that for one WSI, our region proposing method can generate 7.3 thousand contoured regions which fit well with 95.8% of the ROIs annotated by pathologists. The proposed hashing method can retrieve a query image among 136 thousand images in 0.29 s and reach precision of 91% with only 10% of images labeled.
-                      <br><br>
-                      <b>Conclusions</b><br>
-                      The unsupervised region proposing method can generate regions as predictions of lesions in histopathological WSI. The region proposals can also serve as the training samples to train machine-learning models for image retrieval. The proposed hashing method can achieve fast and precise image retrieval with small amount of labels. Furthermore, the proposed methods can be potentially applied in online computer-aided-diagnosis systems.
-                    </p>
-                  <pre xml:space="preserve" id="maCMBP2018Bib" class="bibtex" style="display: none;">
-@article{ma2018generating,
-    title   = {Generating region proposals for histopathological whole slide image retrieval},
-    author  = {Yibing Ma and Zhiguo Jiang and Haopeng Zhang and Fengying Xie 
-            and Yushan Zheng and Huaqiang Shi and Yu Zhao and Jun Shi},
-    journal = {Computer Methods and Programs in Biomedicine},
-    volume  = {159},
-    pages   = {1 - 10},
-    year    = {2018},
-    issn    = {0169-2607},
-
-}      
-                  </pre>
-                  <script language="javascript" type="text/javascript" xml:space="preserve">
-                    hideblock('maCMBP2018Abs');
-                    hideblock('maCMBP2018Bib');
                   </script>
                 </td>
             </tr> <!-- Paper End Here -->
@@ -646,6 +688,7 @@
                   </script>
                 </td>
               </tr> <!-- Paper End Here -->
+              <tr><td> <h3>2014~2017</h3> </td></tr>
               <tr> <!-- An Paper -->
                 <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_pr_2017.jpg" alt="Flowchart_of_N_CNN" width="200">
@@ -687,47 +730,7 @@
                   </script>
                 </td>
             </tr> <!-- Paper End Here -->
-        <tr> <!-- An Paper -->
-            <td width="22%" valign="top"><p>
-              <img src="images/src/article_ma_isbi_2017.jpg" alt="Flowchart" width="200">
-            </p></td>
-            <td width="78%" valign="top">
-              <p>
-                <b>Proposing regions from histopathological whole slide image for retrieval using Selective Search</b> <a href="https://ieeexplore.ieee.org/document/7950491" target="_blank"><i class="fa fa-external-link"></i></a>
-                <br>
-                <font size="3pt" face="Georgia"><i>
-                    Yibing Ma*, Zhiguo Jiang,  Haopeng Zhang, Fengying Xie, Yushan Zheng, Huaqiang Shi
-                </i></font>
-                <br>
-                    IEEE International Conference on Biomedical Imaging (ISBI), 2017
-                <br>
-                <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('maisbi2018Abs')">Abstract</a> &nbsp;
-                <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('maisbi2017Bib')">BibTeX</a> &nbsp;
-              </p>
-              <p id="maisbi2018Abs" class="abstract" style="display: none;">
-                    In the field of pathological image analysis based on machine learning, the generation of appropriate training data set is significant but difficult. As a solution, this paper addresses a novel unsupervised region proposal method for histopathological whole slide image based on Selective Search. Specifically, the method utilizes multiple magnifications, modifies the similarity measure for grouping regions and proposes a new Nucleus-Cytoplasm color space to gain more region proposals. Additionally, a new retrieval acceleration method based on Latent Dirichlet Allocation and Supervised Hashing is raised. The experiments on a large-scale multi-class database of breast histopathological images demonstrate the effectiveness and efficiency of our methods.
-              </p>
-              <pre xml:space="preserve" id="maisbi2017Bib" class="bibtex" style="display: none;">
-@inproceedings{ma2017proposing, 
-        author={Y. {Ma} and Z. {Jiang} and H. {Zhang} and F. {Xie} and Y. {Zheng} and H. {Shi}}, 
-        booktitle={2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017)}, 
-        title={Proposing regions from histopathological whole slide image for retrieval using Selective Search}, 
-        year={2017}, 
-        volume={}, 
-        number={}, 
-        pages={156-159}, 
-        keywords={biomedical optical imaging;learning (artificial intelligence);mammography;medical image processing;histopathological whole slide image;selective search;pathological image analysis;machine learning;multiple magnification;nucleus-cytoplasm color space;latent dirichlet allocation;supervised hashing;breast histopathological image;unsupervised region proposal method;Proposals;Training;Image color analysis;Merging;Pathology;Cancer;Image segmentation;Region proposal;Selective Search;Whole Slide Image;Latent Dirichlet Allocation;Supervised Hashing}, 
-        doi={10.1109/ISBI.2017.7950491}, 
-        ISSN={1945-8452}, 
-        month={April},
-}
-              </pre>
-              <script language="javascript" type="text/javascript" xml:space="preserve">
-                hideblock('maisbi2018Abs');
-                hideblock('maisbi2017Bib');
-              </script>
-            </td>
-        </tr> <!-- Paper End Here -->
+        
         <tr> <!-- An Paper -->
             <td width="22%" valign="top"><p>
               <img src="images/src/article_zheng_spiemi_2017.jpg" alt="Flowchart" width="200">
@@ -766,47 +769,7 @@
                 hideblock('zhengSPIEMI2017Bib');
               </script>
             </td>
-            <tr> <!-- An Paper -->
-                <td width="22%" valign="top"><p>
-                  <img src="images/src/article_ma_cmpb_2018.jpg" alt="Result" width="200">
-                </p></td>
-                <td width="78%" valign="top">
-                  <p>
-                    <b>Breast Histopathological Image Retrieval Based on Latent Dirichlet Allocation</b> <a href="http://ieeexplore.ieee.org/document/7572100/" target="_blank"><i class="fa fa-external-link"></i></a>
-                    <br>
-                    <font size="3pt" face="Georgia"><i>
-                        Yibing Ma, Zhiguo Jiang*, Haopeng Zhang, Fengying Xie, Yushan Zheng, Huaqiang Shi and Yu Zhao
-                    </i></font>
-                    <br>
-                      IEEE Journal of Biomedical and Health Informatics, 2016
-                    <br>
-                    <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('maJBHI2016Abs')">Abstract</a> &nbsp;
-                    <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('maJBHI2016Bib')">BibTeX</a> &nbsp;
-                  </p>
-                  <p id="maJBHI2016Abs" class="abstract" style="display: none;">
-                      In the field of pathology, whole slide image (WSI) has become the major carrier of visual and diagnostic information. Content-based image retrieval among WSIs can aid the diagnosis of an unknown pathological image by finding its similar regions in WSIs with diagnostic information. However, the huge size and complex content of WSI pose several challenges for retrieval. In this paper, we propose an unsupervised, accurate, and fast retrieval method for a breast histopathological image. Specifically, the method presents a local statistical feature of nuclei for morphology and distribution of nuclei, and employs the Gabor feature to describe the texture information. The latent Dirichlet allocation model is utilized for high-level semantic mining. Locality-sensitive hashing is used to speed up the search. Experiments on a WSI database with more than 8000 images from 15 types of breast histopathology demonstrate that our method achieves about 0.9 retrieval precision as well as promising efficiency. Based on the proposed framework, we are developing a search engine for an online digital slide browsing and retrieval platform, which can be applied in computer-aided diagnosis, pathology education, and WSI archiving and management.
-                    </p>
-                    <pre xml:space="preserve" id="maJBHI2016Bib" class="bibtex" style="display: none;">
-@article{maJBHI2016, 
-    author  = {Yibing Ma and Zhiguo Jiang and Haopeng Zhang and Fengying Xie 
-                and Yushan Zheng and Huaqiang Shi and Yu Zhao and Jun Shi}, 
-    journal = {IEEE Journal of Biomedical and Health Informatics}, 
-    title   = {Breast Histopathological Image Retrieval Based on Latent Dirichlet Allocation}, 
-    year    = {2017}, 
-    volume  = {21}, 
-    number  = {4}, 
-    pages   = {1114-1123}, 
-    doi     = {10.1109/JBHI.2016.2611615}, 
-    ISSN    = {2168-2194}, 
-    month   = {July}
-}    
-                  </pre>
-                  <script language="javascript" type="text/javascript" xml:space="preserve">
-                    hideblock('maJBHI2016Abs');
-                    hideblock('maJBHI2016Bib');
-                  </script>
-                </td>
-            </tr> <!-- Paper End Here -->
+            
             <tr> <!-- An Paper -->
                 <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_icip_2014.jpg" alt="Flowchart" width="200">
@@ -881,7 +844,186 @@
                   </script>
                 </td>
               </tr> <!-- Paper End Here -->
-        </tr> <!-- Paper End Here -->
+<!-- Co-author -->
+              <tr><td> <h2>Co-author Publications</h2> </td></tr>
+              <tr> <!-- An Paper -->
+                <td width="22%" valign="top"><p>
+                    <img src="images/src/article_zheng_compay_2019_2.png" alt="Flowchart" width="200">
+                </p></td>
+                <td width="78%" valign="top">
+                    <p>
+                        <b>Cervical cell classification with graph convolutional network</b> 
+                        <a href="https://linkinghub.elsevier.com/retrieve/pii/S0010482521007186" target="_blank"><i class="fa fa-external-link"></i></a>
+                    <br>
+                    <font size="3pt" face="Georgia"><i>
+                        Jun Shi*, Ruoyu Wang, Yushan Zheng, Zhiguo Jiang, Haopeng Zhang, and Lanlan Yu
+                    </i></font>
+                    <br>
+                        Computer Methods and Programs in Biomedicine
+                    <br>
+                        <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_2Abs')">Abstract</a> &nbsp;
+                        <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengCOMPAY2019_2Bib')">BibTeX</a> &nbsp;
+                    </p>
+                    <p id="zhengCOMPAY2019_2Abs" class="abstract" style="display: none;">
+                        <b>Background and objective</b><br>
+                        Cervical cell classification has important clinical significance in cervical cancer screening at early stages. In contrast with the conventional classification methods which depend on hand-crafted or engineered features, Convolutional Neural Network (CNN) generally classifies cervical cells via learned deep features. However, the latent correlations of images may be ignored during CNN feature learning and thus influence the representation ability of CNN features. 
+                        <b>Methods</b><br>
+                        We propose a novel cervical cell classification method based on Graph Convolutional Network (GCN). It aims to explore the potential relationship of cervical cell images for improving the classification performance. The CNN features of all the cervical cell images are firstly clustered and the intrinsic relationships of images can be preliminarily revealed through the clustering. To further capture the underlying correlations existed among clusters, a graph structure is constructed. GCN is then applied to propagate the node dependencies and thus yield the relation-aware feature representation. The GCN features are finally incorporated to enhance the discriminative ability of CNN features.<b>Background and objective</b><br>
+                        <b>Results</b><br>
+                        Experiments on the public cervical cell image dataset SIPaKMeD from International Conference on Image Processing in 2018 demonstrate the feasibility and effectiveness of the proposed method. In addition, we introduce a large-scale Motic liquid-based cytology image dataset which provides the large amount of data, some novel cell types with important clinical significance and staining difference and thus presents a great challenge for cervical cell classification. We evaluate the proposed method under two conditions of the consistent staining and different staining. 
+                        Experimental results show our method outperforms the existing state-of-arts methods according to the quantitative metrics (i.e. accuracy, sensitivity, specificity, F-measure and confusion matrices). 
+                        <b>Conclusion</b><br>
+                        The intrinsic relationship exploration of cervical cells contributes significant improvements to the cervical cell classification. The relation-aware features generated by GCN effectively strengthens the representational power of CNN features. The proposed method can achieve the better classification performance and also can be potentially used in automatic screening system of cervical cytology.
+                    </p>
+                    <pre xml:space="preserve" id="zhengCOMPAY2019_2Bib" class="bibtex" style="display: none;">
+@article{shi2021cervical,
+  title="Cervical cell classification with graph convolutional network.",
+  author="Jun {Shi} and Ruoyu {Wang} and Yushan {Zheng} and Zhiguo {Jiang} and Haopeng {Zhang} and Lanlan {Yu}",
+  journal="Computer Methods and Programs in Biomedicine",
+  volume="198",
+  pages="105807--105807",
+  notes="Sourced from Microsoft Academic - https://academic.microsoft.com/paper/3093496925",
+  year="2021"
+}
+                                  
+                    </pre>
+                    <script language="javascript" type="text/javascript" xml:space="preserve">
+                        hideblock('zhengCOMPAY2019_2Abs');
+                        hideblock('zhengCOMPAY2019_2Bib');
+                    </script>
+                </td>
+              </tr> <!-- Paper End Here -->
+              <tr> <!-- An Paper -->
+                <td width="22%" valign="top"><p>
+                  <img src="images/src/article_ma_jbhi_2016.jpg" alt="Result" width="200">
+                </p></td>
+                <td width="78%" valign="top">
+                  <p>
+                    <b>Generating Region Proposals for Histopathological Whole Slide Image Retrieval</b> <a href="http://www.sciencedirect.com/science/article/pii/S0169260717312154" target="_blank"><i class="fa fa-external-link"></i></a>
+                    <br>
+                    <font size="3pt" face="Georgia"><i>
+                        Yibing Ma, Zhiguo Jiang, Haopeng Zhang*, Fengying Xie, Yushan Zheng, Huaqiang Shi, Yu Zhao and Jun Shi
+                    </i></font>
+                    <br>
+                      Computer Methods and Programs in Biomedicine, 2018
+                    <br>
+                    <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('maCMBP2018Abs')">Abstract</a> &nbsp;
+                    <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('maCMBP2018Bib')">BibTeX</a> &nbsp;
+                  </p>
+                  <p id="maCMBP2018Abs" class="abstract" style="display: none;">
+                      <b>Background and objective</b><br>
+                      Content-based image retrieval is an effective method for histopathological image analysis. However, given a database of huge whole slide images (WSIs), acquiring appropriate region-of-interests (ROIs) for training is significant and difficult. Moreover, histopathological images can only be annotated by pathologists, resulting in the lack of labeling information. Therefore, it is an important and challenging task to generate ROIs from WSI and retrieve image with few labels.
+                      <br><br>
+                      <b>Methods</b><br>
+                      This paper presents a novel unsupervised region proposing method for histopathological WSI based on Selective Search. Specifically, the WSI is over-segmented into regions which are hierarchically merged until the WSI becomes a single region. Nucleus-oriented similarity measures for region mergence and Nucleus–Cytoplasm color space for histopathological image are specially defined to generate accurate region proposals. Additionally, we propose a new semi-supervised hashing method for image retrieval. The semantic features of images are extracted with Latent Dirichlet Allocation and transformed into binary hashing codes with Supervised Hashing.
+                      <br><br>
+                      <b>Results</b><br>
+                      The methods are tested on a large-scale multi-class database of breast histopathological WSIs. The results demonstrate that for one WSI, our region proposing method can generate 7.3 thousand contoured regions which fit well with 95.8% of the ROIs annotated by pathologists. The proposed hashing method can retrieve a query image among 136 thousand images in 0.29 s and reach precision of 91% with only 10% of images labeled.
+                      <br><br>
+                      <b>Conclusions</b><br>
+                      The unsupervised region proposing method can generate regions as predictions of lesions in histopathological WSI. The region proposals can also serve as the training samples to train machine-learning models for image retrieval. The proposed hashing method can achieve fast and precise image retrieval with small amount of labels. Furthermore, the proposed methods can be potentially applied in online computer-aided-diagnosis systems.
+                    </p>
+                  <pre xml:space="preserve" id="maCMBP2018Bib" class="bibtex" style="display: none;">
+  @article{ma2018generating,
+    title   = {Generating region proposals for histopathological whole slide image retrieval},
+    author  = {Yibing Ma and Zhiguo Jiang and Haopeng Zhang and Fengying Xie 
+            and Yushan Zheng and Huaqiang Shi and Yu Zhao and Jun Shi},
+    journal = {Computer Methods and Programs in Biomedicine},
+    volume  = {159},
+    pages   = {1 - 10},
+    year    = {2018},
+    issn    = {0169-2607},
+  
+  }      
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                    hideblock('maCMBP2018Abs');
+                    hideblock('maCMBP2018Bib');
+                  </script>
+                </td>
+              </tr> <!-- Paper End Here -->
+              <tr> <!-- An Paper -->
+                <td width="22%" valign="top"><p>
+                  <img src="images/src/article_ma_cmpb_2018.jpg" alt="Result" width="200">
+                </p></td>
+                <td width="78%" valign="top">
+                  <p>
+                    <b>Breast Histopathological Image Retrieval Based on Latent Dirichlet Allocation</b> <a href="http://ieeexplore.ieee.org/document/7572100/" target="_blank"><i class="fa fa-external-link"></i></a>
+                    <br>
+                    <font size="3pt" face="Georgia"><i>
+                        Yibing Ma, Zhiguo Jiang*, Haopeng Zhang, Fengying Xie, Yushan Zheng, Huaqiang Shi and Yu Zhao
+                    </i></font>
+                    <br>
+                      IEEE Journal of Biomedical and Health Informatics, 2017
+                    <br>
+                    <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('maJBHI2016Abs')">Abstract</a> &nbsp;
+                    <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('maJBHI2016Bib')">BibTeX</a> &nbsp;
+                  </p>
+                  <p id="maJBHI2016Abs" class="abstract" style="display: none;">
+                      In the field of pathology, whole slide image (WSI) has become the major carrier of visual and diagnostic information. Content-based image retrieval among WSIs can aid the diagnosis of an unknown pathological image by finding its similar regions in WSIs with diagnostic information. However, the huge size and complex content of WSI pose several challenges for retrieval. In this paper, we propose an unsupervised, accurate, and fast retrieval method for a breast histopathological image. Specifically, the method presents a local statistical feature of nuclei for morphology and distribution of nuclei, and employs the Gabor feature to describe the texture information. The latent Dirichlet allocation model is utilized for high-level semantic mining. Locality-sensitive hashing is used to speed up the search. Experiments on a WSI database with more than 8000 images from 15 types of breast histopathology demonstrate that our method achieves about 0.9 retrieval precision as well as promising efficiency. Based on the proposed framework, we are developing a search engine for an online digital slide browsing and retrieval platform, which can be applied in computer-aided diagnosis, pathology education, and WSI archiving and management.
+                    </p>
+                    <pre xml:space="preserve" id="maJBHI2016Bib" class="bibtex" style="display: none;">
+@article{maJBHI2016, 
+    author  = {Yibing Ma and Zhiguo Jiang and Haopeng Zhang and Fengying Xie 
+                and Yushan Zheng and Huaqiang Shi and Yu Zhao and Jun Shi}, 
+    journal = {IEEE Journal of Biomedical and Health Informatics}, 
+    title   = {Breast Histopathological Image Retrieval Based on Latent Dirichlet Allocation}, 
+    year    = {2017}, 
+    volume  = {21}, 
+    number  = {4}, 
+    pages   = {1114-1123}, 
+    doi     = {10.1109/JBHI.2016.2611615}, 
+    ISSN    = {2168-2194}, 
+    month   = {July}
+}    
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                    hideblock('maJBHI2016Abs');
+                    hideblock('maJBHI2016Bib');
+                  </script>
+                </td>
+            </tr> <!-- Paper End Here -->
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_ma_isbi_2017.jpg" alt="Flowchart" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+                <p>
+                  <b>Proposing regions from histopathological whole slide image for retrieval using Selective Search</b> <a href="https://ieeexplore.ieee.org/document/7950491" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                      Yibing Ma*, Zhiguo Jiang,  Haopeng Zhang, Fengying Xie, Yushan Zheng, Huaqiang Shi
+                  </i></font>
+                  <br>
+                      IEEE International Conference on Biomedical Imaging (ISBI), 2017
+                  <br>
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('maisbi2018Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('maisbi2017Bib')">BibTeX</a> &nbsp;
+                </p>
+                <p id="maisbi2018Abs" class="abstract" style="display: none;">
+                      In the field of pathological image analysis based on machine learning, the generation of appropriate training data set is significant but difficult. As a solution, this paper addresses a novel unsupervised region proposal method for histopathological whole slide image based on Selective Search. Specifically, the method utilizes multiple magnifications, modifies the similarity measure for grouping regions and proposes a new Nucleus-Cytoplasm color space to gain more region proposals. Additionally, a new retrieval acceleration method based on Latent Dirichlet Allocation and Supervised Hashing is raised. The experiments on a large-scale multi-class database of breast histopathological images demonstrate the effectiveness and efficiency of our methods.
+                </p>
+                <pre xml:space="preserve" id="maisbi2017Bib" class="bibtex" style="display: none;">
+  @inproceedings{ma2017proposing, 
+          author={Y. {Ma} and Z. {Jiang} and H. {Zhang} and F. {Xie} and Y. {Zheng} and H. {Shi}}, 
+          booktitle={2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017)}, 
+          title={Proposing regions from histopathological whole slide image for retrieval using Selective Search}, 
+          year={2017}, 
+          volume={}, 
+          number={}, 
+          pages={156-159}, 
+          keywords={biomedical optical imaging;learning (artificial intelligence);mammography;medical image processing;histopathological whole slide image;selective search;pathological image analysis;machine learning;multiple magnification;nucleus-cytoplasm color space;latent dirichlet allocation;supervised hashing;breast histopathological image;unsupervised region proposal method;Proposals;Training;Image color analysis;Merging;Pathology;Cancer;Image segmentation;Region proposal;Selective Search;Whole Slide Image;Latent Dirichlet Allocation;Supervised Hashing}, 
+          doi={10.1109/ISBI.2017.7950491}, 
+          ISSN={1945-8452}, 
+          month={April},
+  }
+                </pre>
+                <script language="javascript" type="text/javascript" xml:space="preserve">
+                  hideblock('maisbi2018Abs');
+                  hideblock('maisbi2017Bib');
+                </script>
+              </td>
+            </tr> <!-- Paper End Here -->
         <tr><td height="200px"></td></tr>
       <!-- Content End -->
       </tbody></table>
