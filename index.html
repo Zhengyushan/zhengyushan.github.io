@@ -8,9 +8,10 @@
     <meta name="description" content="Home page of Yushan Zheng">
     <!-- Modified from WeiQM' homepage @https://weiquanmao.github.io/ -->
     <meta name="author" content="Yushan Zheng">
-    <title>Yushan Zheng - Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/style.css">
+    <title>Yushan Zheng - Home Page</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css"> -->
+    <script src="https://kit.fontawesome.com/5446fda516.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -25,7 +26,7 @@
             <td width="70%">
               <p class="nametitle"><b>Yushan Zheng</b></p>
               <div style="margin-left:10px"><!-- Name -->
-                <b>郑钰山</b> &nbsp; <i class="fa fa-graduation-cap"> Ph.D</i>
+                <b>郑钰山</b> &nbsp; <i class="fa fa-graduation-cap"></i> Ph.D
               </div>
               <p style="text-align:justify"><!-- CV -->
                 <!-- <i class="fa fa-university" aria-hidden="true"></i> Affiliated Institution<br> -->
@@ -35,15 +36,16 @@
               </p>
               <hr style="border:none;border-top:1px dotted lightgray;"/>
               <p style="text-align:justify"><!-- CV -->
-                Dr. Yushan Zheng is Tenure-track Associate Professor with School of Engineering medicine, Beihang University and is also with <a href="http://remex-lab.github.io" target="_blank">Remex Lab</a>.
+                Dr. Yushan Zheng  received his bachelor's, Master's and Doctor's degrees in 2012, 2015, and 2019 from Beihang University. Now he is an associate professor with School of Engineering medicine, Beihang University and is also with <a href="http://remex-lab.github.io" target="_blank">Remex Lab</a>.
                 His research interests include medical image processing, histopathological image retrieval, segmentation, normalization, digital pathology, deep learning, etc.
               </p>
               <hr style="border:none;border-top:1px dotted lightgray;"/>
               <p><!-- Contact -->
+                <i class="fa fa-address-card-o"></i> 中文主页: <a href="http://shi.buaa.edu.cn/zhengyushan/zh_CN/index.htm">http://shi.buaa.edu.cn/zhengyushan/zh_CN/index.htm</a><br>
                 <i class="fa fa-envelope-o"></i> Email: <a href="mailto:yszheng@buaa.edu.cn">yszheng@buaa.edu.cn</a><br>
                 <i class="fa fa-github"></i> Github: <a href="https://github.com/zhengyushan" target="_blank">github.com/zhengyushan</a><br>
                 <i class="fa fa-google" aria-hidden="true"></i> Goole Scholar ID: <a href="https://scholar.google.com/citations?user=j497JUoAAAAJ" target="_blank">j497JUoAAAAJ</a><br>  
-                ORCID: <a href="https://orcid.org/0000-0003-3302-0481" target="_blank">0000-0003-3302-0481</a><br>  
+                <i class="fa-brands fa-orcid" aria-hidden="true"></i>ORCID: <a href="https://orcid.org/0000-0003-3302-0481" target="_blank">0000-0003-3302-0481</a><br>  
                 <i class="fa fa-map-marker" aria-hidden="true"></i> Address: 
                   No.37, Xueyuan Road, Haidian District, 
                   Beijing 100191, China
@@ -67,31 +69,44 @@
         <!-- Projects -->
         <tr><td> <h2>Research</h2> </td></tr>
         <tr><td> <!-- ALL Project Begin Here -->
-          <table class="group_tab"><tbody>         
-            <ul style="list-style: none; padding-left: 10px; font-size:15pt;">
-                <li><span><i class="fa fa-cube"></i></span> <a href="#CBHIR">Content-based histopathological image retrieval</a></li>
-                <li><span><i class="fa fa-cube"></i></span> <a href="#HWSIA">Pathological whole slide image analysis</a></li>
-                <li><span><i class="fa fa-cube"></i></span> <a href="#HIN">Histopathological image normalization</a></li>
-            </ul>
-            
-            <hr />
-            <a id="CBHIR" class="ua"><h3>Content-based histological image retrieval, 2014-present</h3></a>
-            <p>The project studies the methodology of content-based image retrieval for histological whole slide image database. It helps pathologists understand a region of histological image through searching for similar regions from the database containing diagnosed cases. This project involves research on feature extraction, hashing, and specific retrieval schemes from large-scale gigapixel image database. This research is supported by National Natural Science Foundations of China (Grant No. 61901018) and China Postdoctoral Science Foundation (Grant No. 2019M650446).
-            </i></p>
-          
-            <a id="HWSIA" class="ua"><h3>Pathological whole slide image analysis, 2017-present</h3></a>
-            <p>The project aims to developing online applications for histopathological and cytological whole slide images based on deep learning methods. The applications help pathologists locate lesion regions in WSIs. The project is supported by Motic-BUAA Image Technology Research and Development Center.
-            </i></p>
-      
-            <a id="HIN" class="ua"><h3>Histopathological image normalization, 2018-2019</h3></a>
-            <p>This project studies color normalization or standardization methods for deep learning based whole slide image analysis. The goal of this project is to develop lightweight and meanwhile effective modules and online stain normalization, style transfer and domain adaptation applications for histopathology images on digital pathology platforms.
-            </i></p>
-        </tbody></table>
-        </td></tr> <!-- ALL Project End Here -->
+          <table class="group_tab"><tbody>
+              <tr>
+                <td width="30%" valign="top"><p>
+                  <img src="images/src/analysis.png" alt="Histopathology image analysis" width="300">
+                </p></td>
+                <td width="60%" valign="top">
+                  <h3>Pathological whole slide image analysis, 2017-present</h3>
+                  <p>The project aims to developing online applications for histopathological and cytological whole slide images based on deep learning methods. The applications help cancer scrrening, mutation prediction, cancer cells detection, etc. in WSIs. This direction of research involves weakly supervised represention learning, whole slide image classification, etc.
+                  </i></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30%" valign="top"><p>
+                  <img src="images/src/retrieval.png" alt="Histopathology image retrieval" width="300">
+                </p></td>
+                <td width="60%" valign="top">
+                  <h3>Content-based histological image retrieval, 2014-present</h3>
+                  <p>The project studies the methodology of content-based image retrieval for histological whole slide image database. It helps pathologists understand a region of histological image through searching for similar regions from the database containing diagnosed cases. This project involves research on feature extraction, hashing, and specific retrieval strategies from large-scale gigapixel image database. This research is supported by National Natural Science Foundations of China (Grant No. 61901018) and China Postdoctoral Science Foundation (Grant No. 2019M650446).
+                  </i></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30%" valign="top"><p>
+                  <img src="images/src/normalization.png" alt="Histopathology color normalization" width="300">
+                </p></td>
+                <td width="60%" valign="top">
+                  <h3>Histopathological image normalization, 2018-2019</h3>
+                  <p>This project studies color normalization or standardization methods for deep learning based whole slide image analysis. The goal of this project is to develop lightweight and meanwhile effective modules and online stain normalization, style transfer and domain adaptation applications for histopathology images on digital pathology platforms.
+                  </i></p>
+                </td>
+              </tr>
+            <!-- </tbody></table> -->
+            </tbody></table>
+          </td></tr> <!-- ALL Project End Here -->
 
 
         <!-- A Line -->
-        <tr> <td>
+        <tr><td>
           <hr style="margin-top:40px;height:20px;border:none;border-top:1px solid lightgray;"/>
         </td></tr>
 
@@ -109,6 +124,143 @@
         <tr><td> <h3>2022</h3> </td></tr>
         <tr><td> <!-- ALL Paper Begin Here -->
           <table class="group_tab"><tbody>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_zheng_miccai_2022.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>Kernel Attention Transformer (KAT) for Histopathology Whole Slide Image Classification</b> <a href="" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Yushan Zheng*, Jun Li, Jun Shi, Fengying Xie, Zhiguo Jiang
+                  </i></font>
+                  <br>
+                   Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022
+                  <br>
+                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="https://zhengyushan.github.io" target="_blank">PDF</a> -->
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ZhengMICCAI2022Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ZhengMICCAI2022Bib')">BibTeX</a> &nbsp;
+                  <i class="fa fa-github"></i> <a href="https://github.com/zhengyushan/kat" target="_blank">Code</a>
+              </p>
+              <p id="ZhengMICCAI2022Abs" class="abstract" style="display: none;">
+                Transformer has been widely used in histopathology whole slide image (WSI) classification for the purpose of tumor grading, prognosis analysis, etc. However, the design of token-wise self-attention and positional embedding strategy in the common Transformer limits the effectiveness and efficiency in the application to gigapixel histopathology images. In this paper, we propose a kernel attention Transformer (KAT) for histopathology WSI classification. The information transmission of the tokens is achieved by cross-attention between the tokens and a set of kernels related to a set of positional anchors on the WSI. Compared to the common Transformer structure, the proposed KAT can better describe the hierarchical context information of the local regions of the WSI and meanwhile maintains a lower computational complexity. The proposed method was evaluated on a gastric dataset with 2040 WSIs and an endometrial dataset with 2560 WSIs, and was compared with 5 state-of-the-art methods. The experimental results have demonstrated the proposed KAT is effective and efficient in the task of histopathology WSI classification and is superior to the state-of-the-art methods.
+              </p>
+              <pre xml:space="preserve" id="ZhengMICCAI2022Bib" class="bibtex" style="display: none;">
+  @inproceedings{zheng2022kernel,
+    author    = {Yushan Zheng, Jun Li, Jun Shi, Fengying Xie, Zhiguo Jiang},
+    title     = {Kernel Attention Transformer (KAT) for Histopathology Whole Slide Image Classification},
+    booktitle = {Medical Image Computing and Computer Assisted Intervention 
+                -- MICCAI 2022},
+    year      = {2022}
+  }
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('ZhengMICCAI2022Abs');
+                hideblock('ZhengMICCAI2022Bib');
+              </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+                
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_li_miccai_2022.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+                <p>
+                    <b>Lesion-Aware Contrastive Representation Learning For Histopathology Whole Slide Images Analysis</b> <a href="" target="_blank"><i class="fa fa-external-link"></i></a>
+                    <br>
+                    <font size="3pt" face="Georgia"><i>
+                        Jun Li, Yushan Zheng*, Kun Wu, Jun Shi, Fengying Xie, Zhiguo Jiang
+                    </i></font>
+                    <br>
+                      Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022
+                    <br>
+                    <!-- <i class="fa fa-file-pdf-o"></i> <a href="https://zhengyushan.github.io" target="_blank">PDF</a> -->
+                    <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('LiMICCAI2022Abs')">Abstract</a> &nbsp;
+                    <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('LiMICCAI2022Bib')">BibTeX</a> &nbsp;
+                    <!-- <i class="fa fa-github"></i> <a href="" target="_blank">Code</a> -->
+                </p>
+                <p id="LiMICCAI2022Abs" class="abstract" style="display: none;">
+                    Local representation learning has been a key challenge to promote the performance of the histopathological whole slide images analysis. The previous representation learning methods almost follow the supervised learning paradigm. However, manual annotation for large-scale WSIs is time-consuming and labor-intensive. Hence, the self-supervised contrastive learning has recently attracted intensive attention. Contrastive learning on the design of informative of the positive and negative pairs, but common contrastive learning methods treat each sample as a single class, which leads to the class collision problems, especially in the domain of histopathology image analysis. In this paper, we proposed a novel contrastive representation learning framework called Lesion-Aware Contrastive Learning (LACL) for histopathology whole slide image analysis. We built a module called lesion queue based on the memory bank structure to store the representations of different classes of WSIs, which allowed the model to selectively sample the negative pairs during the training. Moreover, We designed a queue refinement strategy to purify the representations stored in the lesion queue. The experimental results demonstrate that LACL achieves the best performance in histopathology image representation learning on different datasets, and outperforms state-of-the-art methods under different WSI classification benchmarks.
+                </p>
+                <pre xml:space="preserve" id="LiMICCAI2022Bib" class="bibtex" style="display: none;">
+@inproceedings{li2022lesion,
+    author    = {Jun Li, Yushan Zheng*, Kun Wu, Jun Shi, Fengying Xie, Zhiguo Jiang},
+    title     = {Lesion-Aware Contrastive Representation Learning For Histopathology Whole Slide Images Analysis},
+    booktitle = {Medical Image Computing and Computer Assisted Intervention 
+                  -- MICCAI 2022},
+    year      = {2022}
+}
+                </pre>
+                <script language="javascript" type="text/javascript" xml:space="preserve">
+                  hideblock('LiMICCAI2022Abs');
+                  hideblock('LiMICCAI2022Bib');
+                </script>
+                </td>
+            </tr> <!-- Paper End Here -->
+
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                  <img src="images/src/article_shi_isbi_2022.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+                  <p>
+                      <b> Global-local attention network for weakly supervised cervical cytology ROI analysis</b> <a href="" target="_blank"><i class="fa fa-external-link"></i></a>
+                      <br>
+                      <font size="3pt" face="Georgia"><i>
+                          Jun Shi*, Kun Wu, Yushan Zheng*, Yuxin He, Jun Li, Zhiguo Jiang and Lanlan Yu
+                      </i></font>
+                      <br>
+                       IEEE 19th International Symposium on Biomedical Imaging, 2022
+                      <br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_shi_isbi_2022.pdf" target="_blank">PDF</a>
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShiISBI2022Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShiISBI2022Bib')">BibTeX</a> &nbsp;
+                      <!--                      <i class="fa fa-github"></i> <a href="https://github.com/Zhengyushan/lagenet" target="_blank">Code</a>-->
+                  </p>
+                  <p id="ShiISBI2022Abs" class="abstract" style="display: none;">
+                      Existing supervised Convolutional Neural Network (CNN)
+                      approaches for cervical cytology image analysis generally
+                      rely on the heavy manual annotation for each cell or cell
+                      mass and thus lead to extensive time and effort. In this paper,
+                      we propose a global-local network for weakly supervised
+                      cervical cytology region of interest (ROI) analysis. It aims
+                      to perform the classification for ROIs and further classify
+                      the cells only with the ROI labels. Specifically, the proposed
+                      method firstly detects the cells within ROI and extracts the
+                      CNN features of cells. Then attention-based bidirectional
+                      LSTM (Att-BLSTM) is applied to explore the global
+                      contextual information within ROI. On the other hand, the
+                      Vision Transformer (ViT) is used to exploit the local
+                      attentive representations of the cells in ROIs. The cross
+                      attention (CA) is applied to incorporate the global
+                      contextual features and local patterns and thus generates
+                      more discriminative feature representation of ROI. More
+                      importantly, the CA score is used as the pseudo label to
+                      select top and least attentive cells. Therefore, the in-theclass and out-of-the-class CA branches are trained to
+                      achieve the cell classification. Experimental results
+                      demonstrate the effectiveness of our method for cervical
+                      cytology ROI and cell classification, and the weak
+                      supervision of the image-level label has great potential to
+                      promote the automatic whole slide cervical image analysis
+                      and alleviate the workload of cytologists.
+                  </p>
+                <pre xml:space="preserve" id="ShiISBI2022Bib" class="bibtex" style="display: none;">
+@Article{shi2022global,
+  author  = {Jun Shi*, Kun Wu, Yushan Zheng*, Yuxin He, Jun Li, Zhiguo Jiang and Lanlan Yu},
+  title   = {Global-local attention network for weakly supervised cervical cytology ROI analysis},
+  booktitle = {IEEE 19th International Symposium on Biomedical Imaging},
+  year    = {2022}
+}
+                </pre>
+                    <script language="javascript" type="text/javascript" xml:space="preserve">
+                  hideblock('ShiISBI2022Abs');
+                  hideblock('ShiISBI2022Bib');
+                </script>
+                </td>
+            </tr> <!-- Paper End Here -->
+            
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
                   <img src="images/src/article_zheng_mia_2021.png" alt="Flowchart" width="200">
