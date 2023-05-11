@@ -121,9 +121,84 @@
         <i class="fa fa-link"><a href="#" target="_blank"> Supplementary</a></i> &nbsp;
         -->
         <tr><td> <h2>Publications</h2> </td></tr>
-        <tr><td> <h3>2022</h3> </td></tr>
+        <tr><td> <h3>2023</h3> </td></tr>
         <tr><td> <!-- ALL Paper Begin Here -->
           <table class="group_tab"><tbody>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_zheng_tmi_2023.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>Kernel Attention Transformer for Histopathology Whole Slide Image Analysis and Assistant Cancer Diagnosis
+                    </b> <a href="https://ieeexplore.ieee.org/document/10093771/" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Yushan Zheng, Jun Li, Jun Shi*, Fengying Xie, Jianguo Huai, Ming Cao, and Zhiguo Jiang*
+                  </i></font>
+                  <br>
+                   IEEE Transactions on Medical Imaging, 2023
+                  <br>
+                  <i class="fa fa-file-pdf-o"></i> <a href="article_zheng_tmi_2023.pdf" target="_blank">PDF</a>
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ZhengTMI2023Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ZhengTMI2023Bib')">BibTeX</a> &nbsp;
+                  <i class="fa fa-github"></i> <a href="https://github.com/zhengyushan/kat" target="_blank">Code</a>
+              </p>
+              <p id="ZhengTMI2023Abs" class="abstract" style="display: none;">
+                Transformer has been widely used in histopathology whole slide image analysis. However, the design of token-wise self-attention and positional embedding strategy in the common Transformer limits its effectiveness and efficiency when applied to gigapixel histopathology images. In this paper, we propose a novel kernel attention Transformer (KAT) for histopathology WSI analysis and assistant cancer diagnosis. The information transmission in KAT is achieved by cross-attention between the patch features and a set of kernels related to the spatial relationship of the patches on the whole slide images. Compared to the common Transformer structure, KAT can extract the hierarchical context information of the local regions of the WSI and provide diversified diagnosis information. Meanwhile, the kernel-based cross-attention paradigm significantly reduces the computational amount. The proposed method was evaluated on three large-scale datasets and was compared with 8 state-of-the-art methods. The experimental results have demonstrated the proposed KAT is effective and efficient in the task of histopathology WSI analysis and is superior to the state-of-the-art methods. Code: https://github.com/zhengyushan/kat.
+              </p>
+              <pre xml:space="preserve" id="ZhengTMI2023Bib" class="bibtex" style="display: none;">
+  @article{zheng2023kernel,
+    author    = {Yushan Zheng, Jun Li, Jun Shi, Fengying Xie, Jianguo Huai, Ming Cao, Zhiguo Jiang},
+    title     = {Kernel Attention Transformer for Histopathology Whole Slide Image Analysis and Assistant Cancer Diagnosis},
+    journal   = {IEEE Transactions on Medical Imaging},
+    year      = {2023}
+  }
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('ZhengMICCAI2022Abs');
+                hideblock('ZhengMICCAI2022Bib');
+              </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+            <tr><td> <h3>2022</h3> </td></tr>  
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_hu_bibe_2023.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>Histopathology Cross-Modal Retrieval based on Dual-Transformer Network</b> 
+                    <a href="https://ieeexplore.ieee.org/document/9973633/" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                   Dingyi Hu, Yushan Zheng*, Fengying Xie, Zhiguo Jiang, and Jun Shi
+                  </i></font>
+                  <br>
+                  IEEE International Conference on Bioinformatics and Bioengineering (BIBE), 2022
+                  <br>
+                  <i class="fa fa-file-pdf-o"></i> <a href="article_hu_bibe_2023.pdf" target="_blank">PDF</a>
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('HuBIBE2023Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('HuBIBE2023Bib')">BibTeX</a> &nbsp;
+              </p>
+              <p id="HuBIBE2023Abs" class="abstract" style="display: none;">
+                Computer-aided cancer diagnosis (CAD) methods based on the histopathological images have achieved great development. The content-based whole slide image (WSI) retrieval is one of the important application that can search for the informative data to assist clinical diagnosis. It is notable that the current retrieval system are mainly developed based on the image content and image labels. The diagnosis report for the WSIs given by the pathologists are also valuable data, but have not yet been adequately considered in modeling. In this paper, we propose a cross-modal retrieval framework based on histopathology WSIs and diagnosis report, which can simultaneously achieve four retrieval tasks for histopathology database across WSIs and diagnosis reports. The compact binary features from both WSIs and diagnosis reports are first extracted, and then built in a common vision-language semantic feature space by the constraint of the designed cross hashing loss function. The method was verified on a gastric histopathology dataset that contains 932 gastric cases with 4 lesion categories. Experimental results have demonstrated the effectiveness of the proposed method in the cross-modal retrieval tasks for digital pathology system.
+              </p>
+              <pre xml:space="preserve" id="HuBIBE2023Bib" class="bibtex" style="display: none;">
+  @inproceedings{hu2022histopathology,
+    author    = {Dingyi Hu, Yushan Zheng, Fengying Xie, Zhiguo Jiang, Jun Shi},
+    title     = {Histopathology Cross-Modal Retrieval based on Dual-Transformer Network},
+    booktitle = {IEEE International Conference on Bioinformatics and Bioengineering (BIBE)},
+    year      = {2022}
+  }
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('ZhengMICCAI2022Abs');
+                hideblock('ZhengMICCAI2022Bib');
+              </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+               
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
                 <img src="images/src/article_zheng_miccai_2022.png" alt="Result" width="200">
