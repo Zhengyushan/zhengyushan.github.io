@@ -31,7 +31,7 @@
               <p style="text-align:justify"><!-- CV -->
                 <!-- <i class="fa fa-university" aria-hidden="true"></i> Affiliated Institution<br> -->
                 <p style="text-align:justify"></p>
-                School of Engineering medicine, Beihang University, <br>
+                School of Engineering Medicine, Beihang University, <br>
                     Beijing 100191, China<br></p>
               </p>
               <hr style="border:none;border-top:1px dotted lightgray;"/>
@@ -124,6 +124,44 @@
         <tr><td> <h3>2023</h3> </td></tr>
         <tr><td> <!-- ALL Paper Begin Here -->
           <table class="group_tab"><tbody>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_wu_miccai_2023.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>Position-Aware Masked Autoencoder for Histopathology WSI Representation Learning
+                    </b> <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_69" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Kun Wu, Yushan Zheng*, Jun Shi*, Fengying Xie and Zhiguo Jiang 
+                  </i></font>
+                  <br>
+                  Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023
+                  <br>
+                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank">PDF</a> -->
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('WuMICCAI2023Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('WuMICCAI2023Bib')">BibTeX</a> &nbsp;
+                  <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PAMA" target="_blank">Code</a>
+              </p>
+              <p id="WuMICCAI2023Abs" class="abstract" style="display: none;">
+                Transformer-based multiple instance learning (MIL) framework has been proven advanced for whole slide image (WSI) analysis. However, existing spatial embedding strategies in Transformer can only represent fixed structural information, which are hard to tackle the scale-varying and isotropic characteristics of WSIs. Moreover, the current MIL cannot take advantage of a large number of unlabeled WSIs for training. In this paper, we propose a novel self-supervised whole slide image representation learning framework named position-aware masked autoencoder (PAMA), which can make full use of abundant unlabeled WSIs to improve the discrimination of slide features. Moreover, we propose a position-aware cross-attention (PACA) module with a kernel reorientation (KRO) strategy, which makes PAMA able to maintain spatial integrity and semantic enrichment during the training. We evaluated the proposed method on a public TCGA-Lung dataset with 3,064 WSIs and an in-house Endometrial dataset with 3,654 WSIs, and compared it with 6 state-of-the-art methods. The results of experiments show our PAMA is superior to SOTA MIL methods and SSL methods.
+              </p>
+              <pre xml:space="preserve" id="WuMICCAI2023Bib" class="bibtex" style="display: none;">
+  @InProceedings{wu2023positional,
+    author    = {Kun Wu, Yushan Zheng, Jun Shi, Fengying Xie, Zhiguo Jiang},
+    title     = {Position-Aware Masked Autoencoder for Histopathology WSI Representation Learning},
+    booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023},
+    year      = {2023},
+    pages     = {714--724},
+  }
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('WuMICCAI2023Abs');
+                hideblock('WuMICCAI2023Bib');
+              </script>
+              </td>
+            </tr> <!-- Paper End Here -->
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
                 <img src="images/src/article_zheng_tmi_2023.png" alt="Result" width="200">
