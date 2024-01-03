@@ -76,7 +76,7 @@
                 </p></td>
                 <td width="60%" valign="top">
                   <h3>Pathological whole slide image analysis, 2017-present</h3>
-                  <p>The project aims to developing online applications for histopathological and cytological whole slide images based on deep learning methods. The applications help cancer scrrening, mutation prediction, cancer cells detection, etc. in WSIs. This direction of research involves weakly supervised represention learning, whole slide image classification, etc.
+                  <p>The project aims to developing online applications for histopathological and cytological whole slide images based on deep learning methods. The applications help cancer screening, gene mutation prediction, cancer cells detection, etc. in WSIs. This direction of research involves weakly supervised represention learning, self-supervised representation learning, whole slide image classification, etc.
                   </i></p>
                 </td>
               </tr>
@@ -159,6 +159,84 @@
               <script language="javascript" type="text/javascript" xml:space="preserve">
                 hideblock('WuMICCAI2023Abs');
                 hideblock('WuMICCAI2023Bib');
+              </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_shu_embs_2023.gif" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>A Key-Points Based Anchor-Free Cervical Cell Detector
+                    </b> <a href="https://ieeexplore.ieee.org/abstract/document/10341092" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Tong Shu, Jun Shi*, Yushan Zheng*, Zhiguo Jiang, and Lanlan Yu
+                  </i></font>
+                  <br>
+                   IEEE Engineering in Medicine & Biology Society (EMBC), 2023 
+                  <br>
+                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank">PDF</a> -->
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuEMBS2023Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuEMBS2023Bib')">BibTeX</a> &nbsp;
+                  <!-- <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PAMA" target="_blank">Code</a> -->
+              </p>
+              <p id="WuMICCAI2023Abs" class="abstract" style="display: none;">
+                Cervical cell detection is crucial to cervical cytology screening at early stage. Currently most cervical cell detection methods use anchor-based pipeline to achieve the localization and classification of cells, e.g. faster R-CNN and YOLOv3. However, the anchors generally need to be pre-defined before training and the detection performance is inevitably sensitive to these pre-defined hyperparameters (e.g. number of anchors, anchor size and aspect ratios). More importantly, these preset anchors fail to conform to the cells with different morphology at inference phase. In this paper, we present a key-points based anchor-free cervical cell detector based on YOLOv3. Compared with the conventional YOLOv3, the proposed method applies a key-points based anchor-free strategy to represent the cells in the initial prediction phase instead of the preset anchors. Therefore, it can generate more desirable cell localization effect through refinement. Furthermore, PAFPN is applied to enhance the feature hierarchy. GIoU loss is also introduced to optimize the small cell localization in addition to focal loss and smooth L1 loss. Experimental results on cervical cytology ROI datasets demonstrate the effectiveness of our method for cervical cell detection and the robustness to different liquid-based preparation styles (i.e. drop-slide, membrane-based and sedimentation).
+              </p>
+              <pre xml:space="preserve" id="ShuEMBS2023Bib" class="bibtex" style="display: none;">
+  @InProceedings{shu2023a,
+    author    = {Tong Shu, Jun Shi, Yushan Zheng, Zhiguo Jiang, Lanlan Yu},
+    title     = {A Key-Points Based Anchor-Free Cervical Cell Detector},
+    booktitle = {2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)},
+    year      = {2023},
+    pages     = {1-5},
+    doi       = {10.1109/EMBC40787.2023.10341092}},
+  }
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('ShuEMBS2023Abs');
+                hideblock('ShuEMBS2023Bib');
+              </script>
+              </td>
+            </tr> <!-- Paper End Here -->
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_shi_isbi_2023.gif" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>Cervical Cell Classification Using Multi-Scale Feature Fusion and Channel-Wise Cross-Attention
+                    </b> <a href="https://ieeexplore.ieee.org/abstract/document/10230475" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Jun Shi, Xinyu Zhu, Yuan Zhang, Yushan Zheng*, Zhiguo Jiang, and Liping Zheng
+                  </i></font>
+                  <br>
+                  IEEE 20th International Symposium on Biomedical Imaging (ISBI), 2023
+                  <br>
+                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank">PDF</a> -->
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('shiISBI2023Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('shiISBI2023Bib')">BibTeX</a> &nbsp;
+                  <!-- <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PAMA" target="_blank">Code</a> -->
+              </p>
+              <p id="WuMICCAI2023Abs" class="abstract" style="display: none;">
+                Cervical cancer is one of the prevalent malignant tumors in women, and accurate cervical cell classification is clinically significant for early screening of cervical cancer. In this paper, we propose a novel cervical cell classification method based on multi-scale feature fusion and channel-wise cross-attention. Specifically, the multi-scale cell features are combined from the perspective of channels, and then the fused multi-scale features are fed into multi-head channel-wise cross-attention to explore the channel dependencies and non-local semantic information, which are encoded into the high-level CNN features through Multi-Layer Perceptron (MLP) with residual structure. More importantly, the Re-Attention is applied to exploit the correlation among different attention heads. Experiments on three public cervical cell datasets, SIPaKMeD, Herlev and Motic, demonstrate the effectiveness of the method for cervical cell classification.
+              </p>
+              <pre xml:space="preserve" id="shiISBI2023Bib" class="bibtex" style="display: none;">
+  @InProceedings{shi2023cervical,
+    author    = {Jun Shi*, Xinyu Zhu, Yuan Zhang, Yushan Zheng*, Zhiguo Jiang Liping Zheng},
+    title     = {Cervical Cell Classification Using Multi-Scale Feature Fusion and Channel-Wise Cross-Attention},
+    booktitle = {IEEE 20th International Symposium on Biomedical Imaging (ISBI)},
+    year      = {2023},
+    pages     = {1--5},
+    doi       = {10.1109/ISBI53787.2023.10230475},
+  }
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('shiISBI2023Abs');
+                hideblock('shiISBI2023Bib');
               </script>
               </td>
             </tr> <!-- Paper End Here -->
