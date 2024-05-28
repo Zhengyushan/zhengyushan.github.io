@@ -121,9 +121,139 @@
         <i class="fa fa-link"><a href="#" target="_blank"> Supplementary</a></i> &nbsp;
         -->
         <tr><td> <h2>Publications</h2> </td></tr>
-        <tr><td> <h3>2023</h3> </td></tr>
+        
         <tr><td> <!-- ALL Paper Begin Here -->
+          <tr><td> <h3>2024</h3> </td></tr>
           <table class="group_tab"><tbody>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_shi_cmpb_2024.jpg" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>Masked hypergraph learning for weakly supervised histopathology whole slide image classification</b> <a href="https://www.sciencedirect.com/science/article/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                      Jun Shi, Tong Shu, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and <a href="https://zhengyushan.github.io/" target="_blank">Yushan Zheng*</a>
+                  </i></font>
+                  <br>
+                   Computer Methods and Programs in Biomedicine, 2024
+                  <br>
+                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="" target="_blank">PDF</a> -->
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShiCMPB2024Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShiCMPB2024Bib')">BibTeX</a> &nbsp;
+                  <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/MaskHGL" target="_blank">Code</a>
+              </p>
+              <p id="ShiCMPB2024Abs" class="abstract" style="display: none;">
+                <b>Background and objective</b><br>
+                Graph neural network (GNN) has been extensively used in histopathology whole slide image (WSI) analysis due to the efficiency and flexibility in modelling relationships among entities. However, most existing GNN-based WSI analysis methods only consider the pairwise correlation of patches from one single perspective (e.g. spatial affinity or embedding similarity) yet ignore the intrinsic non-pairwise relationships present in gigapixel WSI, which are likely to contribute to feature learning and downstream tasks. The objective of this study is therefore to explore the non-pairwise relationships in histopathology WSI and exploit them to guide the learning of slide-level representations for better classification performance.
+                <br><br>
+                <b>Methods</b><br>
+                In this paper, we propose a novel Masked HyperGraph Learning (MaskHGL) framework for weakly supervised histopathology WSI classification. Compared with most GNN-based WSI classification methods, MaskHGL exploits the non-pairwise correlations between patches with hypergraph and global message passing conducted by hypergraph convolution. Concretely, multi-perspective hypergraphs are first built for each WSI, then hypergraph attention is introduced into the jointed hypergraph to propagate the non-pairwise relationships and thus yield more discriminative node representation. More importantly, a masked hypergraph reconstruction module is devised to guide the hypergraph learning which can generate more powerful robustness and generalization than the method only using hypergraph modelling. Additionally, a self-attention-based node aggregator is also applied to explore the global correlation of patches in WSI and produce the slide-level representation for classification.
+                <br><br>
+                <b>Results</b><br>
+                The proposed method is evaluated on two public TCGA benchmark datasets and one in-house dataset. On the public TCGA-LUNG (1494 WSIs) and TCGA-EGFR (696 WSIs) test set, the area under receiver operating characteristic (ROC) curve (AUC) were 0.9752±0.0024 and 0.7421±0.0380, respectively. On the USTC-EGFR (754 WSIs) dataset, MaskHGL achieved significantly better performance with an AUC of 0.8745±0.0100, which surpassed the second-best state-of-the-art method SlideGraph+ 2.64%.
+                <br><br>
+                <b>Conclusions</b><br>
+                askHGL shows a great improvement, brought by considering the intrinsic non-pairwise relationships within WSI, in multiple downstream WSI classification tasks. In particular, the designed masked hypergraph reconstruction module promisingly alleviates the data scarcity and greatly enhances the robustness and classification ability of our MaskHGL. Notably, it has shown great potential in cancer subtyping and fine-grained lung cancer gene mutation prediction from hematoxylin and eosin (H&E) stained WSIs.
+                <br><br>
+              </p>
+              <pre xml:space="preserve" id="ShiCMPB2024Bib" class="bibtex" style="display: none;">
+@article{SHI2024108237,
+  title = {Masked hypergraph learning for weakly supervised histopathology whole slide image classification},
+  journal = {Computer Methods and Programs in Biomedicine},
+  pages = {108237},
+  year = {2024},
+  doi = {https://doi.org/10.1016/j.cmpb.2024.108237},
+  author = {Jun Shi and Tong Shu and Kun Wu and Zhiguo Jiang and Liping Zheng and Wei Wang and Haibo Wu and Yushan Zheng},
+}
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('ShiCMPB2024Abs');
+                hideblock('ShiCMPB2024Bib');
+              </script>
+              </td>
+          </tr> <!-- Paper End Here -->
+          <tr> <!-- An Paper -->
+            <td width="22%" valign="top"><p>
+              <img src="images/src/article_wu_midl_2024.png" alt="Result" width="200">
+            </p></td>
+            <td width="78%" valign="top">
+            <p>
+                <b>Genomics-Embedded Histopathology Whole Slide Image Encoding for Data-efficient Survival Prediction</b> <a href="https://openreview.net/pdf?id=tvPboxOKBc" target="_blank"><i class="fa fa-external-link"></i></a>
+                <br>
+                <font size="3pt" face="Georgia"><i>
+                  Kun Wu, Zhiguo Jiang, Xinyu Zhu, Jun Shi, and <a href="https://zhengyushan.github.io/" target="_blank">Yushan Zheng*</a>
+                </i></font>
+                <br>
+                 Medical Imaging with Deep Learning, 2024
+                <br>
+                <!-- <i class="fa fa-file-pdf-o"></i> <a href="" target="_blank">PDF</a> -->
+                <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('WuMIDL2024Abs')">Abstract</a> &nbsp;
+                <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('WuMIDL2024Bib')">BibTeX</a> &nbsp;
+                <!-- <i class="fa fa-github"></i> <a href="https://github.com/hudingyi/FGCR" target="_blank">Code</a> -->
+            </p>
+            <p id="WuMIDL2024Abs" class="abstract" style="display: none;">
+              Extensive works have shown that fusing histopathology images with genomics features can significantly improve the performance of survival prediction. However, the current methods still require both image and genomics data during the inference phase. In this work, we proposed the Genomics-Embedded WSI Encoding (GEE) framework where a proxy branch is built to guide the WSI encoder to extract genomics-related features from image modality. It makes the model achieve comparable inference accuracy solely based on image modality input when compared to the SOTA multi-modal-based survival prediction methods.
+            </p>
+            <pre xml:space="preserve" id="WuMIDL2024Bib" class="bibtex" style="display: none;">
+@inproceedings{
+  wu2024genomicsembedded,
+  title={Genomics-Embedded Histopathology Whole Slide Image Encoding for Data-efficient Survival Prediction},
+  author={Kun Wu and Zhiguo Jiang and Xinyu Zhu and Jun Shi and Yushan Zheng},
+  booktitle={Medical Imaging with Deep Learning},
+  year={2024},
+  url={https://openreview.net/forum?id=tvPboxOKBc}
+}
+            </pre>
+            <script language="javascript" type="text/javascript" xml:space="preserve">
+              hideblock('WuMIDL2024Abs');
+              hideblock('WuMIDL2024Bib');
+            </script>
+            </td>
+        </tr> <!-- Paper End Here -->
+        <tr> <!-- An Paper -->
+          <td width="22%" valign="top"><p>
+            <img src="images/src/article_zheng_mia_2024.png" alt="Result" width="200">
+          </p></td>
+          <td width="78%" valign="top">
+          <p>
+              <b>Histopathology language-image representation learning for fine-grained digital pathology cross-modal retrieval</b> <a href="https://www.sciencedirect.com/science/article/pii/S1361841524000884" target="_blank"><i class="fa fa-external-link"></i></a>
+              <br>
+              <font size="3pt" face="Georgia"><i>
+                  Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, and <a href="https://zhengyushan.github.io/" target="_blank">Yushan Zheng*</a>
+              </i></font>
+              <br>
+               Medical Image Analysis, 2024
+              <br>
+              <!-- <i class="fa fa-file-pdf-o"></i> <a href="" target="_blank">PDF</a> -->
+              <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ZhengMIA2024Abs')">Abstract</a> &nbsp;
+              <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ZhengMIA2024Bib')">BibTeX</a> &nbsp;
+              <i class="fa fa-github"></i> <a href="https://github.com/hudingyi/FGCR" target="_blank">Code</a>
+          </p>
+          <p id="ZhengMIA2024Abs" class="abstract" style="display: none;">
+        Large-scale digital whole slide image (WSI) datasets analysis have gained significant attention in computer-aided cancer diagnosis. Content-based histopathological image retrieval (CBHIR) is a technique that searches a large database for data samples matching input objects in both details and semantics, offering relevant diagnostic information to pathologists. However, the current methods are limited by the difficulty of gigapixels, the variable size of WSIs, and the dependence on manual annotations. In this work, we propose a novel histopathology language-image representation learning framework for fine-grained digital pathology cross-modal retrieval, which utilizes paired diagnosis reports to learn fine-grained semantics from the WSI. An anchor-based WSI encoder is built to extract hierarchical region features and a prompt-based text encoder is introduced to learn fine-grained semantics from the diagnosis reports. The proposed framework is trained with a multivariate cross-modal loss function to learn semantic information from the diagnosis report at both the instance level and region level. After training, it can perform four types of retrieval tasks based on the multi-modal database to support diagnostic requirements. We conducted experiments on an in-house dataset and a public dataset to evaluate the proposed method. Extensive experiments have demonstrated the effectiveness of the proposed method and its advantages to the present histopathology retrieval methods. The code is available at https://github.com/hudingyi/FGCR.
+          </p>
+          <pre xml:space="preserve" id="ZhengMIA2024Bib" class="bibtex" style="display: none;">
+@article{HU2024103163,
+title = {Histopathology language-image representation learning for fine-grained digital pathology cross-modal retrieval},
+journal = {Medical Image Analysis},
+volume = {95},
+pages = {103163},
+year = {2024},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2024.103163},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841524000884},
+author = {Dingyi Hu and Zhiguo Jiang and Jun Shi and Fengying Xie and Kun Wu and Kunming Tang and Ming Cao and Jianguo Huai and Yushan Zheng},
+}
+          </pre>
+          <script language="javascript" type="text/javascript" xml:space="preserve">
+            hideblock('ZhengMIA2024Abs');
+            hideblock('ZhengMIA2024Bib');
+          </script>
+          </td>
+      </tr> <!-- Paper End Here -->
+          <tr><td> <h3>2023</h3> </td></tr>
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
                 <img src="images/src/article_wu_miccai_2023.png" alt="Result" width="200">
@@ -134,7 +264,7 @@
                     </b> <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_69" target="_blank"><i class="fa fa-external-link"></i></a>
                   <br>
                   <font size="3pt" face="Georgia"><i>
-                    Kun Wu, Yushan Zheng*, Jun Shi*, Fengying Xie and Zhiguo Jiang 
+                    Kun Wu, Yushan Zheng*, Jun Shi*, Fengying Xie, and Zhiguo Jiang 
                   </i></font>
                   <br>
                   Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023
