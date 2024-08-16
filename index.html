@@ -127,6 +127,118 @@
           <table class="group_tab"><tbody>
             <tr> <!-- An Paper -->
               <td width="22%" valign="top"><p>
+                <img src="images/src/article_zheng_jbhi_2024.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>Partial-Label Contrastive Representation Learning for Fine-grained Biomarkers Prediction from Histopathology Whole Slide Images</b> <a href="https://ieeexplore.ieee.org/document/10599610" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Yushan Zheng, Kun Wu, Jun Li, Kunming Tang, Jun Shi, Haibo Wu, Zhiguo Jiang, and Wei Wang*</a>
+                  </i></font>
+                  <br>
+                   IEEE Jounal of Biomedical and Health Informatics, 2024
+                  <br>
+                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="" target="_blank">PDF</a> -->
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhengJBHI2024Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhengJBHI2024Bib')">BibTeX</a> &nbsp;
+                  <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PLCC" target="_blank">Code</a>
+              </p>
+              <p id="zhengJBHI2024Abs" class="abstract" style="display: none;">
+                In the domain of histopathology analysis, existing representation learning methods for biomarkers prediction from whole slide images (WSI) face challenges due to the complexity of tissue subtypes and label noise problems. This paper proposed a novel partial-label contrastive representation learning approach to enhance the discrimination of histopathology image representations for fine-grained biomarkers prediction. We designed a partial-label contrastive clustering (PLCC) module for partial-label disambiguation and a dynamic clustering algorithm to sample the most representative features of each category to the clustering queue during the contrastive learning process. We conducted comprehensive experiments on three gene mutation prediction datasets, including USTC-EGFR, BRCA-HER2, and TCGA-EGFR. The results show that our method outperforms 9 existing methods in terms of Accuracy, AUC, and F1 Score. Specifically, our method achieved an AUC of 0.950 in EGFR mutation subtyping of TCGA-EGFR and an AUC of 0.853 in HER2 0/1+/2+/3+ grading of BRCA-HER2, which demonstrates its superiority in fine-grained biomarkers prediction from histopathology whole slide images.
+              </p>
+              <pre xml:space="preserve" id="zhengJBHI2024Bib" class="bibtex" style="display: none;">
+@article{zheng2024partial,
+  author={Zheng, Yushan and Wu, Kun and Li, Jun and Tang, Kunming and Shi, Jun and Wu, Haibo and Jiang, Zhiguo and Wang, Wei},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={Partial-Label Contrastive Representation Learning for Fine-grained Biomarkers Prediction from Histopathology Whole Slide Images}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/JBHI.2024.3429188}
+}
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('zhengJBHI2024Abs');
+                hideblock('zhengJBHI2024Bib');
+              </script>
+              </td>
+          </tr> <!-- Paper End Here -->
+          <tr> <!-- An Paper -->
+            <td width="22%" valign="top"><p>
+              <img src="images/src/article_zhu_miccai_2024.png" alt="Result" width="200">
+            </p></td>
+            <td width="78%" valign="top">
+            <p>
+                <b>Lifelong Histopathology Whole Slide Image Retrieval via Distance Consistency Rehearsal</b> <a href="https://arxiv.org/abs/2407.08153" target="_blank"><i class="fa fa-external-link"></i></a>
+                <br>
+                <font size="3pt" face="Georgia"><i>
+                  Xinyu Zhu, Zhiguo Jiang, Kun Wu, Jun Shi, and Yushan Zheng*</a>
+                </i></font>
+                <br>
+                Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024
+                <br>
+                <i class="fa fa-file-pdf-o"></i> <a href="https://arxiv.org/pdf/2407.08153" target="_blank">PDF</a>
+                <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('zhuMICCAI2024Abs')">Abstract</a> &nbsp;
+                <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('zhuMICCAI2024Bib')">BibTeX</a> &nbsp;
+                <!-- <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PLCC" target="_blank">Code</a> -->
+            </p>
+            <p id="zhuMICCAI2024Abs" class="abstract" style="display: none;">
+              Content-based histopathological image retrieval (CBHIR) has gained attention in recent years, offering the capability to return histopathology images that are content-wise similar to the query one from an established database. However, in clinical practice, the continuously expanding size of WSI databases limits the practical application of the current CBHIR methods. In this paper, we propose a Lifelong Whole Slide Retrieval (LWSR) framework to address the challenges of catastrophic forgetting by progressive model updating on continuously growing retrieval database. Our framework aims to achieve the balance between stability and plasticity during continuous learning. To preserve system plasticity, we utilize local memory bank with reservoir sampling method to save instances, which can comprehensively encompass the feature spaces of both old and new tasks. Furthermore, A distance consistency rehearsal (DCR) module is designed to ensure the retrieval queue's consistency for previous tasks, which is regarded as stability within a lifelong CBHIR system. We evaluated the proposed method on four public WSI datasets from TCGA projects. The experimental results have demonstrated the proposed method is effective and is superior to the state-of-the-art methods.
+            </p>
+            <pre xml:space="preserve" id="zhuMICCAI2024Bib" class="bibtex" style="display: none;">
+@inproceedings{zhu2024lifelong,
+  title     = {Lifelong Histopathology Whole Slide Image Retrieval via Distance Consistency Rehearsal}, 
+  author    = {Xinyu Zhu and Zhiguo Jiang and Kun Wu and Jun Shi and Yushan Zheng},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+  year      = {2024},
+}
+            </pre>
+            <script language="javascript" type="text/javascript" xml:space="preserve">
+              hideblock('zhuMICCAI2024Abs');
+              hideblock('zhuMICCAI2024Bib');
+            </script>
+            </td>
+        </tr> <!-- Paper End Here -->
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                <img src="images/src/article_shu_miccai_2024.png" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+              <p>
+                  <b>SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification</b> <a href="https://arxiv.org/abs/2407.08968" target="_blank"><i class="fa fa-external-link"></i></a>
+                  <br>
+                  <font size="3pt" face="Georgia"><i>
+                    Tong Shu, Jun Shi, Dongdong Sun, Zhiguo Jiang, and Yushan Zheng*</a>
+                  </i></font>
+                  <br>
+                   Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024
+                  <br>
+                  <i class="fa fa-file-pdf-o"></i> <a href="https://arxiv.org/pdf/2407.08968" target="_blank">PDF</a>
+                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuMICCAI2024Abs')">Abstract</a> &nbsp;
+                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuMICCAI2024Bib')">BibTeX</a> &nbsp;
+                  <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/SlideGCD" target="_blank">Code</a>
+              </p>
+              <p id="ShuMICCAI2024Abs" class="abstract" style="display: none;">
+                Existing WSI analysis methods lie on the consensus that histopathological characteristics of tumors are significant guidance for cancer diagnostics. Particularly, as the evolution of cancers is a continuous process, the correlations and differences across various stages, anatomical locations and patients should be taken into account. However, recent research mainly focuses on the inner-contextual information in a single WSI, ignoring the correlations between slides. To verify whether introducing the slide inter-correlations can bring improvements to WSI representation learning, we propose a generic WSI analysis pipeline SlideGCD that considers the existing multi-instance learning (MIL) methods as the backbone and forge the WSI classification task as a node classification problem. More specifically, SlideGCD declares a node buffer that stores previous slide embeddings for subsequent extensive slide-based graph construction and conducts graph learning to explore the inter-correlations implied in the slide-based graph. Moreover, we frame the MIL classifier and graph learning into two parallel workflows and deploy the knowledge distillation to transfer the differentiable information to the graph neural network. The consistent performance boosting, brought by SlideGCD, of four previous state-of-the-art MIL methods is observed on two TCGA benchmark datasets.
+              </p>
+              <pre xml:space="preserve" id="ShuMICCAI2024Bib" class="bibtex" style="display: none;">
+@article{shu2024slidegcd,
+  title     = {SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification}, 
+  author    = {Tong Shu and Jun Shi and Dongdong Sun and Zhiguo Jiang and Yushan Zheng},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+  year      = {2024},
+}
+              </pre>
+              <script language="javascript" type="text/javascript" xml:space="preserve">
+                hideblock('ShuMICCAI2024Abs');
+                hideblock('ShuMICCAI2024Bib');
+              </script>
+              </td>
+          </tr> <!-- Paper End Here -->
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
                 <img src="images/src/article_shi_cmpb_2024.jpg" alt="Result" width="200">
               </p></td>
               <td width="78%" valign="top">
@@ -134,7 +246,7 @@
                   <b>Masked hypergraph learning for weakly supervised histopathology whole slide image classification</b> <a href="https://www.sciencedirect.com/science/article/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a>
                   <br>
                   <font size="3pt" face="Georgia"><i>
-                      Jun Shi, Tong Shu, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and <a href="https://zhengyushan.github.io/" target="_blank">Yushan Zheng*</a>
+                      Jun Shi, Tong Shu, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and Yushan Zheng*</a>
                   </i></font>
                   <br>
                    Computer Methods and Programs in Biomedicine, 2024
@@ -183,7 +295,7 @@
                 <b>Genomics-Embedded Histopathology Whole Slide Image Encoding for Data-efficient Survival Prediction</b> <a href="https://openreview.net/pdf?id=tvPboxOKBc" target="_blank"><i class="fa fa-external-link"></i></a>
                 <br>
                 <font size="3pt" face="Georgia"><i>
-                  Kun Wu, Zhiguo Jiang, Xinyu Zhu, Jun Shi, and <a href="https://zhengyushan.github.io/" target="_blank">Yushan Zheng*</a>
+                  Kun Wu, Zhiguo Jiang, Xinyu Zhu, Jun Shi, and Yushan Zheng*</a>
                 </i></font>
                 <br>
                  Medical Imaging with Deep Learning, 2024
@@ -221,7 +333,7 @@
               <b>Histopathology language-image representation learning for fine-grained digital pathology cross-modal retrieval</b> <a href="https://www.sciencedirect.com/science/article/pii/S1361841524000884" target="_blank"><i class="fa fa-external-link"></i></a>
               <br>
               <font size="3pt" face="Georgia"><i>
-                  Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, and <a href="https://zhengyushan.github.io/" target="_blank">Yushan Zheng*</a>
+                  Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, and Yushan Zheng*</a>
               </i></font>
               <br>
                Medical Image Analysis, 2024
