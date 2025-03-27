@@ -19,143 +19,432 @@
       <img class="modal-content" id="modalImg">
     </div>
     
-    <header>
-      <div class="header-content">
-        <div class="profile-info">
-          <h1>Yushan Zheng</h1>
-          <div><b>郑钰山</b> &nbsp; <i class="fa fa-graduation-cap"></i> Ph.D</div>
-          <p>School of Engineering Medicine, Beihang University, <br>
-             Beijing 100191, China</p>
-          <p>Dr. Yushan Zheng received his bachelor's, Master's and Doctor's degrees in 2012, 2015, and 2019 from Beihang University. Now he is an associate professor with School of Engineering medicine, Beihang University and is also with <a href="http://remex-lab.github.io" target="_blank">Remex Lab</a>. His research interests include medical image processing, histopathological image retrieval, segmentation, normalization, digital pathology, deep learning, etc.</p>
-          <div class="contact-info">
-            <p><i class="fa fa-address-card-o"></i> 中文主页: <a href="http://shi.buaa.edu.cn/zhengyushan/zh_CN/index.htm">http://shi.buaa.edu.cn/zhengyushan/zh_CN/index.htm</a></p>
-            <p><i class="fa fa-envelope-o"></i> Email: <a href="mailto:yszheng@buaa.edu.cn">yszheng@buaa.edu.cn</a></p>
-            <p><i class="fa fa-github"></i> Github: <a href="https://github.com/zhengyushan" target="_blank">github.com/zhengyushan</a></p>
-            <p><i class="fa fa-google" aria-hidden="true"></i> Google Scholar: <a href="https://scholar.google.com/citations?user=j497JUoAAAAJ" target="_blank">j497JUoAAAAJ</a></p>
-            <p><i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID: <a href="https://orcid.org/0000-0003-3302-0481" target="_blank">0000-0003-3302-0481</a></p>
-            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Address: No.37, Xueyuan Road, Haidian District, Beijing 100191, China</p>
-          </div>
-        </div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-content">
         <img src="images/zys_home_page.jpg" alt="Yushan Zheng" class="profile-img">
+        <h1>Yushan Zheng</h1>
+        <div><b>郑钰山</b> &nbsp; <i class="fa fa-graduation-cap"></i> Ph.D</div>
+        <p>School of Engineering Medicine, Beihang University, <br>
+           Beijing 100191, China</p>
+        <div class="contact-info">
+          <p><i class="fa fa-address-card-o"></i> 中文主页: <a href="http://shi.buaa.edu.cn/zhengyushan/zh_CN/index.htm">http://shi.buaa.edu.cn/zhengyushan/zh_CN/index.htm</a></p>
+          <p><i class="fa fa-envelope-o"></i> Email: <a href="mailto:yszheng@buaa.edu.cn">yszheng@buaa.edu.cn</a></p>
+          <p><i class="fa fa-github"></i> Github: <a href="https://github.com/zhengyushan" target="_blank">github.com/zhengyushan</a></p>
+          <p><i class="fa fa-google" aria-hidden="true"></i> Google Scholar: <a href="https://scholar.google.com/citations?user=j497JUoAAAAJ" target="_blank">j497JUoAAAAJ</a></p>
+          <p><i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID: <a href="https://orcid.org/0000-0003-3302-0481" target="_blank">0000-0003-3302-0481</a></p>
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i> Address: No.37, Xueyuan Road, Haidian District, Beijing 100191, China</p>
+        </div>
+        <div class="sidebar-footer">
+          <p>&copy; 2024 Yushan Zheng</p>
+        </div>
       </div>
-    </header>
-    
-    <div class="container">
-      <!-- Research Section -->
-      <section class="section" id="research">
-        <h2>Research</h2>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="container">
+        <!-- Bio Section -->
+        <section class="section" id="bio">
+          <h2>Bio</h2>
+          <div class="bio-content">
+            <p>Dr. Yushan Zheng received his bachelor's, Master's and Doctor's degrees in 2012, 2015, and 2019 from Beihang University. Now he is an associate professor with School of Engineering medicine, Beihang University and is also with <a href="http://remex-lab.github.io" target="_blank">Remex Lab</a>. His research interests include medical image processing, histopathological image retrieval, segmentation, normalization, digital pathology, deep learning, etc.</p>
+            
+            <div class="bio-details">
+              <h3>Employment</h3>
+              <ul>
+                <li><span class="date">2022 - Present</span> <strong>Associate Professor</strong> at School of Engineering Medicine, Beihang University</li>
+                <li><span class="date">2019 - 2022</span> <strong>Postdoctoral Researcher</strong> at School of Engineering Medicine, Beihang University</li>
+              </ul>
+
+              <h3>Education</h3>
+              <ul>
+                <li><span class="date">2015 - 2019</span> <strong>Ph.D.</strong> in Pattern recognition and intelligent systems from Beihang University</li>
+                <li><span class="date">2012 - 2015</span> <strong>M.S.</strong> in Pattern recognition and intelligent systems from Beihang University</li>
+                <li><span class="date">2008 - 2012</span> <strong>B.S.</strong> in Control technology from Beihang University</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Research Section -->
+        <section class="section" id="research">
+          <h2>Research</h2>
+          
+          <div class="research-item">
+            <div class="research-image">
+              <img src="images/src/analysis.png" alt="Histopathology image analysis" class="featured-image" onclick="showModal(this)">
+            </div>
+            <div class="research-content">
+              <h3>Histopathology whole slide image analysis, 2017-present</h3>
+              <p>The project aims to developing algorithms for histopathology whole slide images based on deep learning methods. The applications help cancer screening, predictions for gene mutation, tumor biomarker status, response to targeted therapy, etc. This direction of research involves representation learning, weakly supervised whole slide image classification, multi-modal collaborative learning, etc. This research is supported by National Natural Science Foundations of China, Beijing Natural Science Foundation, etc.</p>
+            </div>
+          </div>
+          
+          <div class="research-item">
+            <div class="research-image">
+              <img src="images/src/retrieval.png" alt="Histopathology image retrieval" class="featured-image" onclick="showModal(this)">
+            </div>
+            <div class="research-content">
+              <h3>Content-based histopathology image retrieval, 2014-present</h3>
+              <p>The project studies the methodology of content-based image retrieval for histopathology whole slide image database. It helps pathologists understand a region of histological image through searching for similar regions from the database containing diagnosed cases. This project involves research on feature extraction, hashing, and specific retrieval strategies from large-scale gigapixel image database. This research is supported by National Natural Science Foundations of China and China Postdoctoral Science Foundation.</p>
+            </div>
+          </div>
+          
+          <div class="research-item">
+            <div class="research-image">
+              <img src="images/src/normalization.png" alt="Histopathology color normalization" class="featured-image" onclick="showModal(this)">
+            </div>
+            <div class="research-content">
+              <h3>Histopathological image normalization, 2018-2019</h3>
+              <p>This project studies color normalization or standardization methods for deep learning based whole slide image analysis. The goal of this project is to develop lightweight and meanwhile effective modules and online stain normalization, style transfer and domain adaptation applications for histopathology images on digital pathology platforms.</p>
+            </div>
+          </div>
+        </section>
         
-        <div class="research-item">
-          <div class="research-image">
-            <img src="images/src/analysis.png" alt="Histopathology image analysis" class="featured-image" onclick="showModal(this)">
+        <!-- Featured Works Section -->
+        <section class="section" id="featured-works">
+          <h2>Featured Works</h2>
+          
+          <div class="featured-section">
+            <div class="publication-item">
+              <img src="images/src/article_tang_aaai_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+              <div class="publication-title">Promptable Representation Distribution Learning and Data Augmentation for Gigapixel Histopathology WSI Analysis <a href="https://arxiv.org/abs/2412.14473v1" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Kunming Tang, Zhiguo Jiang, Jun Shi, Wei Wang, Haibo Wu, Yushan Zheng*</div>
+              <div class="publication-venue">The 39th Annual AAAI Conference on Artificial Intelligence (AAAI), 2025</div>
+              <div class="publication-links">
+                <a href="pdf/article_tang_aaai_2025.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                <a href="javascript:toggleblock('tangAAAI2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
+                <a href="https://github.com/lazytkm/PRDL" target="_blank"><i class="fa fa-github"></i> Code</a>
+              </div>
+              <p id="tangAAAI2024Abs" class="abstract" style="display: none;">
+                Gigapixel image analysis, particularly for whole slide images (WSIs), often relies on multiple instance learning (MIL). Under the paradigm of MIL, patch image representations are extracted and then fixed during the training of the MIL classifiers for efficiency consideration. However, the invariance of representations makes it difficult to perform data augmentation for WSI-level model training, which significantly limits the performance of the downstream WSI analysis. The current data augmentation methods for gigapixel images either introduce additional computational costs or result in a loss of semantic information, which is hard to meet the requirements for efficiency and stability needed for WSI model training. In this paper, we propose a Promptable Representation Distribution Learning framework (PRDL) for both patch-level representation learning and WSI-level data augmentation. Meanwhile, we explore the use of prompts to guide data augmentation in feature space, which achieves promptable data augmentation for training robust WSI-level models. The experimental results have demonstrated that the proposed method stably outperforms state-of-the-art methods.
+              </p>
+            </div>
+
+            <div class="publication-item">
+              <img src="images/src/article_wu_tmi_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+              <div class="publication-title">Pan-cancer Histopathology WSI Pre-training with Position-aware Masked Autoencoder <a href="https://ieeexplore.ieee.org/document/10793237" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Kun Wu, Zhiguo Jiang, Kunming Tang, Jun Shi, Fengying Xie, Wei Wang, Haibo Wu, Yushan Zheng*</div>
+              <div class="publication-venue">IEEE Transactions on Medical Imaging, 2024</div>
+              <div class="publication-links">
+                <a href="https://arxiv.org/abs/2407.07504" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                <a href="javascript:toggleblock('wuTMI2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
+                <a href="https://github.com/WkEEn/PAMA" target="_blank"><i class="fa fa-github"></i> Code</a>
+              </div>
+              <p id="wuTMI2024Abs" class="abstract" style="display: none;">
+                Large-scale pre-training models have promoted the development of histopathology image analysis. However, existing self-supervised methods for histopathology images primarily focus on learning patch features, while there is a notable gap in the availability of pre-training models specifically designed for WSI-level feature learning. In this paper, we propose a novel self-supervised learning framework for pan-cancer WSI-level representation pre-training with the designed position-aware masked autoencoder (PAMA). Meanwhile, we propose the position-aware cross-attention (PACA) module with a kernel reorientation (KRO) strategy and an anchor dropout (AD) mechanism. The KRO strategy can capture the complete semantic structure and eliminate ambiguity in WSIs, and the AD contributes to enhancing the robustness and generalization of the model. We evaluated our method on 7 large-scale datasets from multiple organs for pan-cancer classification tasks. The results have demonstrated the effectiveness and generalization of PAMA in discriminative WSI representation learning and pan-cancer WSI pre-training. The proposed method was also compared with 8 WSI analysis methods. The experimental results have indicated that our proposed PAMA is superior to the state-of-the-art methods.
+              </p>
+            </div>
+
+            <div class="publication-item">
+              <img src="images/src/article_tang_tmi_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+              <div class="publication-title">Self-Supervised Representation Distribution Learning for Reliable Data Augmentation in Histopathology WSI Classification <a href="https://ieeexplore.ieee.org/document/10643565" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Kunming Tang, Zhiguo Jiang, Kun Wu, Jun Shi, Fengying Xie, Wei Wang, HaiboWu*, Yushan Zheng*</div>
+              <div class="publication-venue">IEEE Transactions on Medical Imaging, 2024</div>
+              <div class="publication-links">
+                <a href="pdf\article_tang_tmi_2024.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                <a href="javascript:toggleblock('tangTMI2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
+                <a href="https://github.com/lazytkm/SSRDL" target="_blank"><i class="fa fa-github"></i> Code</a>
+              </div>
+              <p id="tangTMI2024Abs" class="abstract" style="display: none;">
+                Multiple instance learning (MIL) based whole slide image (WSI) classification is often carried out on the representations of patches extracted from WSI with a pre-trained patch encoder. The performance of classification relies on both patch-level representation learning and MIL classifier training. Most MIL methods utilize a frozen model pre-trained on ImageNet or a model trained with self-supervised learning on histopathology image dataset to extract patch image representations and then fix these representations in the training of the MIL classifiers for efficiency consideration. However, the invariance of representations cannot meet the diversity requirement for training a robust MIL classifier, which has significantly limited the performance of the WSI classification. In this paper, we propose a Self-Supervised Representation Distribution Learning framework (SSRDL) for patch-level representation learning with an online representation sampling strategy (ORS) for both patch feature extraction and WSI-level data augmentation. The proposed method was evaluated on three datasets under three MIL frameworks. The experimental results have demonstrated that the proposed method achieves the best performance in histopathology image representation learning and data augmentation and outperforms state-of-the-art methods under different WSI classification frameworks.
+              </p>
+            </div>
+            
+            <div class="publication-item">
+              <img src="images/src/article_zheng_mia_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+              <div class="publication-title">Histopathology language-image representation learning for fine-grained digital pathology cross-modal retrieval <a href="https://www.sciencedirect.com/science/article/pii/S1361841524000884" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, and Yushan Zheng*</div>
+              <div class="publication-venue">Medical Image Analysis, 2024</div>
+              <div class="publication-links">
+                <a href="javascript:toggleblock('ZhengMIA2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
+                <a href="https://github.com/hudingyi/FGCR" target="_blank"><i class="fa fa-github"></i> Code</a>
+              </div>
+              <p id="ZhengMIA2024Abs" class="abstract" style="display: none;">
+                Fine-grained cross-modal retrieval (FGCR) for digital pathology plays a crucial role in diagnostic support systems, enabling targeted searches using detailed descriptive queries. However, current research on FGCR for histopathology images faces three main challenges: the domain gap between medical language and histopathology images, the lack of robust fine-grained feature representation, and the absence of a comprehensive dataset to support such analysis. In this paper, we present a novel medical language and image representation learning framework specifically designed for FGCR in digital pathology. Our approach addresses the domain gap through a novel Knowledge-guided Contrastive Learning (KCL) strategy for representation alignment between texts and images in the histopathology domain. We also introduce a Dual-transformer network that enhances multimodal feature learning by integrating both global context and local details from pathology images. To facilitate research in this area, we have created the BreaKHis Cross-Modal Retrieval (BKCMR) dataset, containing over 5,000 image-text pairs with detailed morphological descriptions created by pathologists. Extensive experiments demonstrate that our method significantly outperforms current state-of-the-art approaches in cross-modal retrieval tasks, achieving substantial improvements across all evaluation metrics. This research represents an important step toward enabling more precise and effective cross-modal searches in digital pathology, with potential applications in diagnostic assistance and educational platforms.
+              </p>
+            </div>
+
+            <div class="publication-item">
+              <img src="images/src/article_zheng_tmi_2023.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+              <div class="publication-title">Kernel Attention Transformer for Histopathology Whole Slide Image Analysis and Assistant Cancer Diagnosis <a href="https://ieeexplore.ieee.org/document/10093771/" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Yushan Zheng, Jun Li, Jun Shi*, Fengying Xie, Jianguo Huai, Ming Cao, and Zhiguo Jiang*</div>
+              <div class="publication-venue">IEEE Transactions on Medical Imaging, 2023</div>
+              <div class="publication-links">
+                <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                <a href="javascript:toggleblock('ZhengTMI2023Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
+                <a href="https://github.com/zhengyushan/kat" target="_blank"><i class="fa fa-github"></i> Code</a>
+              </div>
+              <p id="ZhengTMI2023Abs" class="abstract" style="display: none;">
+                Attention-based transformer networks have shown immense promise for enhancing feature representation by capturing token correlations. However, the standard transformer architecture may not fully exploit the complex contextual dependencies or spatial relationships present in histopathology whole slide image (WSI) patches. This paper introduces a kernel attention transformer (KAT) architecture designed specifically for histopathology WSI analysis. Unlike traditional transformers, our KAT network learns kernel-based attention patterns that offer more varied attention to effectively model the complex relationships in histopathology images. Specifically, we introduced a designed kernel structure to represent attention patterns, which significantly expands the representational capacity beyond what the traditional dot-product attention allows, while maintaining training efficiency. Further, to improve its computational efficiency on high-resolution histopathology WSIs, we developed a memory-token-based KAT classifier that efficiently models global dependencies across the entire slide while being computationally tractable. The proposed method was evaluated on four public histopathology WSI datasets for classification. Experimental results demonstrated that our method outperforms state-of-the-art approaches, achieving significantly better accuracy, particularly on the most challenging histopathology tasks.
+              </p>
+            </div>
+          
+            <div class="publication-item">
+              <img src="images/src/article_zheng_mia_2021.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+              <div class="publication-title">Encoding Histopathology Whole Slide Images with Location-aware Graphs for Diagnostically Relevant Regions Retrieval <a href="https://doi.org/10.1016/j.media.2021.102308" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Jun Shi*, Fengying Xie, Haopeng Zhang, Wei Luo, Dingyi Hu, Shujiao Sun, Zhongmin Jiang, and Chenghai Xue</div>
+              <div class="publication-venue">Medical Image Analysis, 2022</div>
+              <div class="publication-links">
+                <a href="pdf/article_zheng_mia_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+                <a href="javascript:toggleblock('ZhengMIA2022Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
+                <a href="https://github.com/Zhengyushan/lagenet" target="_blank"><i class="fa fa-github"></i> Code</a>
+              </div>
+              <p id="ZhengMIA2022Abs" class="abstract" style="display: none;">
+                Histopathological whole slide images (WSIs) are gigapixel images widely used in cancer diagnosis. Each WSI may include multiple diagnostically relevant regions, making them challenging to represent. Meanwhile, the spatial relationships between tissue regions are often diagnostically significant. This paper proposes a novel location-aware graph encoding network (LaGeNet) for representing histopathology WSIs that captures both region-wise feature representations and spatial relationships. Unlike existing multiple-instance learning (MIL) methods that focus solely on region features, our approach builds a location graph from region nodes with positional encoding and creates a diagnostic node for global feature learning. The model is trained end-to-end using a contrastive learning strategy to capture diagnostic similarities between WSIs. We evaluate our approach on five datasets from different organs, demonstrating superior performance in diagnostically-relevant region retrieval compared to state-of-the-art methods. Our LaGeNet framework provides an effective approach for encoding gigapixel histopathology images while preserving spatial information.
+              </p>
+            </div>
           </div>
-          <div class="research-content">
-            <h3>Histopathology whole slide image analysis, 2017-present</h3>
-            <p>The project aims to developing algorithms for histopathology whole slide images based on deep learning methods. The applications help cancer screening, predictions for gene mutation, tumor biomarker status, response to targeted therapy, etc. This direction of research involves representation learning, weakly supervised whole slide image classification, multi-modal collaborative learning, etc. This research is supported by National Natural Science Foundations of China, Beijing Natural Science Foundation, etc.</p>
+          
+          <div class="view-all-button">
+            <a href="#publications" class="btn">Full publication list</a>
           </div>
-        </div>
+        </section>
         
-        <div class="research-item">
-          <div class="research-image">
-            <img src="images/src/retrieval.png" alt="Histopathology image retrieval" class="featured-image" onclick="showModal(this)">
+        <!-- Professional Activities Section -->
+        <section class="section" id="professional-activities">
+          <h2>Professional Activities</h2>
+          
+          <div class="activities-container">
+            <div class="activity-group">
+              <h3>Area Chair of</h3>
+              <ul>
+                <li>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025</li>
+              </ul>
+            </div>
+            
+            <div class="activity-group">
+              <h3>Reviewer of</h3>
+              <ul>
+                <li>IEEE Transactions on Medical Imaging <span style="color: #0066cc; font-style: italic;">[2020,2022,2023,2024 Platinum-level Distinguised Reviewer]</span></li>
+                <li>Medical Image Analysis</li>
+                <li>IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
+                <li>IEEE Transactions on Neural Networks and Learning Systems</li>
+                <li>Advanced Science</li>
+                <li>IEEE Transactions on Fuzzy Systems</li>
+                <li>IEEE Journal of Biomedical and Health Informatics</li>
+                <li>Artificial Intelligence in Medicine</li>
+                <li>Computer Methods and Programs in Biomedicine</li>
+                <li>Computers in Biology and Medicine</li>
+                <li>IEEE Transactions on Computational Biology and Bioinformatics</li>
+                <li>IEEE Transactions on Circuits and Systems for Video Technology</li> 
+                <li>IEEE Journal of Translational Engineering in Health and Medicine</li>
+                <li>IEEE Transactions on Big Data</li>
+                <li>IEEE Transactions on Emerging Topics in Computational Intelligence</li>
+                <li>Physics in Medicine and Biology</li>
+                <li>Information Fusion</li>
+                <li>Bioinformatics</li>
+                <li>Neurocomputing</li>
+                <li>The American Journal of Pathology</li>
+                <li>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2020-2024 <span style="color: #0066cc; font-style: italic;">[2022 Outstanding Reviewer Award]</span></li>
+              </ul>
+            </div>
           </div>
-          <div class="research-content">
-            <h3>Content-based histopathology image retrieval, 2014-present</h3>
-            <p>The project studies the methodology of content-based image retrieval for histopathology whole slide image database. It helps pathologists understand a region of histological image through searching for similar regions from the database containing diagnosed cases. This project involves research on feature extraction, hashing, and specific retrieval strategies from large-scale gigapixel image database. This research is supported by National Natural Science Foundations of China and China Postdoctoral Science Foundation.</p>
-          </div>
-        </div>
+        </section>
         
-        <div class="research-item">
-          <div class="research-image">
-            <img src="images/src/normalization.png" alt="Histopathology color normalization" class="featured-image" onclick="showModal(this)">
-          </div>
-          <div class="research-content">
-            <h3>Histopathological image normalization, 2018-2019</h3>
-            <p>This project studies color normalization or standardization methods for deep learning based whole slide image analysis. The goal of this project is to develop lightweight and meanwhile effective modules and online stain normalization, style transfer and domain adaptation applications for histopathology images on digital pathology platforms.</p>
-          </div>
-        </div>
-      </section>
-      
-      <!-- Featured Works Section -->
-      <section class="section" id="featured-works">
-        <h2>Featured Works</h2>
-        
-        <div class="featured-section">
+        <!-- Publications Section -->
+        <section class="section" id="publications">
+          <h2>Publications</h2>
+          
+          <div class="year-header">2025</div>
           <div class="publication-item">
-            <img src="images/src/article_tang_aaai_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+            <div class="publication-title">Weakly supervised multi-modal contrastive learning framework for predicting the HER2 scores in breast cancer <a href="https://doi.org/10.1016/j.compmedimag.2025.102502" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Jun Shi, Dongdong Sun, Zhiguo Jiang, Jun Du, Wei Wang, Yushan Zheng*, Wu Haibo*</div>
+            <div class="publication-venue">Computerized Medical Imaging and Graphics, 2025</div>
+          </div>
+
+          <div class="publication-item">
+            <div class="publication-title">Pathology report generation from whole slide images with knowledge retrieval and multi-level regional feature selection <a href="https://doi.org/10.1016/j.cmpb.2025.108677" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, Yushan Zheng*</div>
+            <div class="publication-venue">Computer Methods and Programs in Biomedicine, 2025</div>
+          </div>
+
+          <div class="publication-item">
+            <div class="publication-title">A deep-learning model for predicting tyrosine kinase inhibitor response from histology in gastrointestinal stromal tumor <a href="https://doi.org/10.1002/path.6399" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Xue Kong#, Jun Shi#, Dongdong Sun#, Lanqing Cheng, Can Wu, Zhiguo Jiang, Yushan Zheng*, Wei Wang*, Haibo Wu*</div>
+            <div class="publication-venue">The Journal of Pathology, 2025</div>
+          </div>
+
+          <div class="publication-item">
             <div class="publication-title">Promptable Representation Distribution Learning and Data Augmentation for Gigapixel Histopathology WSI Analysis <a href="https://arxiv.org/abs/2412.14473v1" target="_blank"><i class="fa fa-external-link"></i></a></div>
             <div class="publication-authors">Kunming Tang, Zhiguo Jiang, Jun Shi, Wei Wang, Haibo Wu, Yushan Zheng*</div>
             <div class="publication-venue">The 39th Annual AAAI Conference on Artificial Intelligence (AAAI), 2025</div>
             <div class="publication-links">
               <a href="pdf/article_tang_aaai_2025.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-              <a href="javascript:toggleblock('tangAAAI2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
               <a href="https://github.com/lazytkm/PRDL" target="_blank"><i class="fa fa-github"></i> Code</a>
             </div>
-            <p id="tangAAAI2024Abs" class="abstract" style="display: none;">
-              Gigapixel image analysis, particularly for whole slide images (WSIs), often relies on multiple instance learning (MIL). Under the paradigm of MIL, patch image representations are extracted and then fixed during the training of the MIL classifiers for efficiency consideration. However, the invariance of representations makes it difficult to perform data augmentation for WSI-level model training, which significantly limits the performance of the downstream WSI analysis. The current data augmentation methods for gigapixel images either introduce additional computational costs or result in a loss of semantic information, which is hard to meet the requirements for efficiency and stability needed for WSI model training. In this paper, we propose a Promptable Representation Distribution Learning framework (PRDL) for both patch-level representation learning and WSI-level data augmentation. Meanwhile, we explore the use of prompts to guide data augmentation in feature space, which achieves promptable data augmentation for training robust WSI-level models. The experimental results have demonstrated that the proposed method stably outperforms state-of-the-art methods.
-            </p>
           </div>
-
+          
+          <div class="year-header">2024</div>
+          
           <div class="publication-item">
-            <img src="images/src/article_wu_tmi_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
             <div class="publication-title">Pan-cancer Histopathology WSI Pre-training with Position-aware Masked Autoencoder <a href="https://ieeexplore.ieee.org/document/10793237" target="_blank"><i class="fa fa-external-link"></i></a></div>
             <div class="publication-authors">Kun Wu, Zhiguo Jiang, Kunming Tang, Jun Shi, Fengying Xie, Wei Wang, Haibo Wu, Yushan Zheng*</div>
             <div class="publication-venue">IEEE Transactions on Medical Imaging, 2024</div>
             <div class="publication-links">
               <a href="https://arxiv.org/abs/2407.07504" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-              <a href="javascript:toggleblock('wuTMI2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
               <a href="https://github.com/WkEEn/PAMA" target="_blank"><i class="fa fa-github"></i> Code</a>
             </div>
-            <p id="wuTMI2024Abs" class="abstract" style="display: none;">
-              Large-scale pre-training models have promoted the development of histopathology image analysis. However, existing self-supervised methods for histopathology images primarily focus on learning patch features, while there is a notable gap in the availability of pre-training models specifically designed for WSI-level feature learning. In this paper, we propose a novel self-supervised learning framework for pan-cancer WSI-level representation pre-training with the designed position-aware masked autoencoder (PAMA). Meanwhile, we propose the position-aware cross-attention (PACA) module with a kernel reorientation (KRO) strategy and an anchor dropout (AD) mechanism. The KRO strategy can capture the complete semantic structure and eliminate ambiguity in WSIs, and the AD contributes to enhancing the robustness and generalization of the model. We evaluated our method on 7 large-scale datasets from multiple organs for pan-cancer classification tasks. The results have demonstrated the effectiveness and generalization of PAMA in discriminative WSI representation learning and pan-cancer WSI pre-training. The proposed method was also compared with 8 WSI analysis methods. The experimental results have indicated that our proposed PAMA is superior to the state-of-the-art methods.
-            </p>
           </div>
+          
           <div class="publication-item">
-            <img src="images/src/article_tang_tmi_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
             <div class="publication-title">Self-Supervised Representation Distribution Learning for Reliable Data Augmentation in Histopathology WSI Classification <a href="https://ieeexplore.ieee.org/document/10643565" target="_blank"><i class="fa fa-external-link"></i></a></div>
             <div class="publication-authors">Kunming Tang, Zhiguo Jiang, Kun Wu, Jun Shi, Fengying Xie, Wei Wang, HaiboWu*, Yushan Zheng*</div>
             <div class="publication-venue">IEEE Transactions on Medical Imaging, 2024</div>
             <div class="publication-links">
               <a href="pdf\article_tang_tmi_2024.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-              <a href="javascript:toggleblock('tangTMI2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
               <a href="https://github.com/lazytkm/SSRDL" target="_blank"><i class="fa fa-github"></i> Code</a>
             </div>
-            <p id="tangTMI2024Abs" class="abstract" style="display: none;">
-              Multiple instance learning (MIL) based whole slide image (WSI) classification is often carried out on the representations of patches extracted from WSI with a pre-trained patch encoder. The performance of classification relies on both patch-level representation learning and MIL classifier training. Most MIL methods utilize a frozen model pre-trained on ImageNet or a model trained with self-supervised learning on histopathology image dataset to extract patch image representations and then fix these representations in the training of the MIL classifiers for efficiency consideration. However, the invariance of representations cannot meet the diversity requirement for training a robust MIL classifier, which has significantly limited the performance of the WSI classification. In this paper, we propose a Self-Supervised Representation Distribution Learning framework (SSRDL) for patch-level representation learning with an online representation sampling strategy (ORS) for both patch feature extraction and WSI-level data augmentation. The proposed method was evaluated on three datasets under three MIL frameworks. The experimental results have demonstrated that the proposed method achieves the best performance in histopathology image representation learning and data augmentation and outperforms state-of-the-art methods under different WSI classification frameworks.
-            </p>
           </div>
           
           <div class="publication-item">
-            <img src="images/src/article_zheng_mia_2024.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+              <div class="publication-title">Prediction of Epidermal Growth Factor Receptor Mutation Subtypes in Non--Small Cell Lung Cancer From Hematoxylin and Eosin--Stained Slides Using Deep Learning <a href="https://www.sciencedirect.com/science/article/pii/S0023683823001695" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Wanqiu Zhang#, Wei Wang#, Yao Xu#, Kun Wu#, Jun Shi, Ming Li, Zhengzhong Feng*, Yinhua Liu*, Yushan Zheng*, Haibo Wu*</div>
+              <div class="publication-venue">Laboratory Investigation, 2024</div>
+            </div>
+    
+            <div class="publication-item">
+              <div class="publication-title">Report-Guided Cross-Modal Representation Learning for Predicting EGFR Mutations by Whole Slide Image <a href="https://ieeexplore.ieee.org/document/10476367" target="_blank"><i class="fa fa-external-link"></i></a></div>
+              <div class="publication-authors">Qi Qiao, Jun Shi, Zhiguo Jiang, Wei Wang, Haibo Wu, Yushan Zheng*</div>
+              <div class="publication-venue">2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2024</div>
+            </div>
+
+          <div class="publication-item">
+            <div class="publication-title">Partial-Label Contrastive Representation Learning for Fine-grained Biomarkers Prediction from Histopathology Whole Slide Images <a href="https://ieeexplore.ieee.org/document/10599610" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng, Kun Wu, Jun Li, Kunming Tang, Jun Shi, Haibo Wu, Zhiguo Jiang*, and Wei Wang*</div>
+            <div class="publication-venue">IEEE Jounal of Biomedical and Health Informatics, 2024</div>
+            <div class="publication-links">
+              <a href="pdf/article_zheng_jbhi_2024.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/WkEEn/PLCC" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Leveraging IHC Staining to Prompt HER2 Status Prediction from HE-Stained Histopathology Whole Slide Images <a href="https://link.springer.com/chapter/10.1007/978-3-031-73284-3_14" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yuping Wang, Dongdong Sun, Jun Shi, Wei Wang, Zhiguo Jiang, Haibo Wu, Yushan Zheng*</div>
+            <div class="publication-venue">MICCAI Workshop on Machine Learning in Medical Imaging, 2024</div>
+            <div class="publication-links">
+              <a href="pdf/article_wang_MLMI_2024.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Lifelong Histopathology Whole Slide Image Retrieval via Distance Consistency Rehearsal <a href="https://arxiv.org/abs/2407.08153" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Xinyu Zhu, Zhiguo Jiang, Kun Wu, Jun Shi, and Yushan Zheng*</div>
+            <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024</div>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2407.08153" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/OliverZXY/LWSR" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification <a href="https://arxiv.org/abs/2407.08968" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Tong Shu, Jun Shi, Dongdong Sun, Zhiguo Jiang, and Yushan Zheng*</div>
+            <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024</div>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2407.08968" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/HFUT-miaLab/SlideGCD" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Masked hypergraph learning for weakly supervised histopathology whole slide image classification <a href="https://www.sciencedirect.com/science/article/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Jun Shi, Tong Shu, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and Yushan Zheng*</div>
+            <div class="publication-venue">Computer Methods and Programs in Biomedicine, 2024</div>
+            <div class="publication-links">
+              <a href="https://github.com/HFUT-miaLab/MaskHGL" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Genomics-Embedded Histopathology Whole Slide Image Encoding for Data-efficient Survival Prediction <a href="https://openreview.net/pdf?id=tvPboxOKBc" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Kun Wu, Zhiguo Jiang, Xinyu Zhu, Jun Shi, and Yushan Zheng*</div>
+            <div class="publication-venue">Medical Imaging with Deep Learning, 2024</div>
+          </div>
+          
+          <div class="publication-item">
             <div class="publication-title">Histopathology language-image representation learning for fine-grained digital pathology cross-modal retrieval <a href="https://www.sciencedirect.com/science/article/pii/S1361841524000884" target="_blank"><i class="fa fa-external-link"></i></a></div>
             <div class="publication-authors">Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, and Yushan Zheng*</div>
             <div class="publication-venue">Medical Image Analysis, 2024</div>
             <div class="publication-links">
-              <a href="javascript:toggleblock('ZhengMIA2024Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
               <a href="https://github.com/hudingyi/FGCR" target="_blank"><i class="fa fa-github"></i> Code</a>
             </div>
-            <p id="ZhengMIA2024Abs" class="abstract" style="display: none;">
-              Fine-grained cross-modal retrieval (FGCR) for digital pathology plays a crucial role in diagnostic support systems, enabling targeted searches using detailed descriptive queries. However, current research on FGCR for histopathology images faces three main challenges: the domain gap between medical language and histopathology images, the lack of robust fine-grained feature representation, and the absence of a comprehensive dataset to support such analysis. In this paper, we present a novel medical language and image representation learning framework specifically designed for FGCR in digital pathology. Our approach addresses the domain gap through a novel Knowledge-guided Contrastive Learning (KCL) strategy for representation alignment between texts and images in the histopathology domain. We also introduce a Dual-transformer network that enhances multimodal feature learning by integrating both global context and local details from pathology images. To facilitate research in this area, we have created the BreaKHis Cross-Modal Retrieval (BKCMR) dataset, containing over 5,000 image-text pairs with detailed morphological descriptions created by pathologists. Extensive experiments demonstrate that our method significantly outperforms current state-of-the-art approaches in cross-modal retrieval tasks, achieving substantial improvements across all evaluation metrics. This research represents an important step toward enabling more precise and effective cross-modal searches in digital pathology, with potential applications in diagnostic assistance and educational platforms.
-            </p>
           </div>
-
+          
+          <div class="year-header">2023</div>
           <div class="publication-item">
-            <img src="images/src/article_zheng_tmi_2023.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+            <div class="publication-title">Position-Aware Masked Autoencoder for Histopathology WSI Representation Learning <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_69" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Kun Wu, Yushan Zheng*, Jun Shi*, Fengying Xie, and Zhiguo Jiang</div>
+            <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023</div>
+            <div class="publication-links">
+              <a href="https://github.com/WkEEn/PAMA" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">A Key-Points Based Anchor-Free Cervical Cell Detector <a href="https://ieeexplore.ieee.org/abstract/document/10341092" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Tong Shu, Jun Shi*, Yushan Zheng*, Zhiguo Jiang, and Lanlan Yu</div>
+            <div class="publication-venue">IEEE Engineering in Medicine & Biology Society (EMBC), 2023</div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Cervical Cell Classification Using Multi-Scale Feature Fusion and Channel-Wise Cross-Attention <a href="https://ieeexplore.ieee.org/abstract/document/10230475" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Jun Shi, Xinyu Zhu, Yuan Zhang, Yushan Zheng*, Zhiguo Jiang, and Liping Zheng</div>
+            <div class="publication-venue">IEEE 20th International Symposium on Biomedical Imaging (ISBI), 2023</div>
+          </div>
+          
+          <div class="publication-item">
             <div class="publication-title">Kernel Attention Transformer for Histopathology Whole Slide Image Analysis and Assistant Cancer Diagnosis <a href="https://ieeexplore.ieee.org/document/10093771/" target="_blank"><i class="fa fa-external-link"></i></a></div>
             <div class="publication-authors">Yushan Zheng, Jun Li, Jun Shi*, Fengying Xie, Jianguo Huai, Ming Cao, and Zhiguo Jiang*</div>
             <div class="publication-venue">IEEE Transactions on Medical Imaging, 2023</div>
             <div class="publication-links">
               <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-              <a href="javascript:toggleblock('ZhengTMI2023Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
               <a href="https://github.com/zhengyushan/kat" target="_blank"><i class="fa fa-github"></i> Code</a>
             </div>
-            <p id="ZhengTMI2023Abs" class="abstract" style="display: none;">
-              Attention-based transformer networks have shown immense promise for enhancing feature representation by capturing token correlations. However, the standard transformer architecture may not fully exploit the complex contextual dependencies or spatial relationships present in histopathology whole slide image (WSI) patches. This paper introduces a kernel attention transformer (KAT) architecture designed specifically for histopathology WSI analysis. Unlike traditional transformers, our KAT network learns kernel-based attention patterns that offer more varied attention to effectively model the complex relationships in histopathology images. Specifically, we introduced a designed kernel structure to represent attention patterns, which significantly expands the representational capacity beyond what the traditional dot-product attention allows, while maintaining training efficiency. Further, to improve its computational efficiency on high-resolution histopathology WSIs, we developed a memory-token-based KAT classifier that efficiently models global dependencies across the entire slide while being computationally tractable. The proposed method was evaluated on four public histopathology WSI datasets for classification. Experimental results demonstrated that our method outperforms state-of-the-art approaches, achieving significantly better accuracy, particularly on the most challenging histopathology tasks.
-            </p>
           </div>
-        
+          
+          <div class="year-header">2022</div>
           <div class="publication-item">
-            <img src="images/src/article_zheng_mia_2021.png" alt="Result" class="publication-image featured-image" onclick="showModal(this)">
+            <div class="publication-title">Histopathology Cross-Modal Retrieval based on Dual-Transformer Network <a href="https://ieeexplore.ieee.org/document/9973633/" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Dingyi Hu, Yushan Zheng*, Fengying Xie, Zhiguo Jiang, and Jun Shi</div>
+            <div class="publication-venue">IEEE International Conference on Bioinformatics and Bioengineering (BIBE), 2022</div>
+            <div class="publication-links">
+              <a href="pdf/article_hu_bibe_2023.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Kernel Attention Transformer (KAT) for Histopathology Whole Slide Image Classification <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_28" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng*, Jun Li, Jun Shi, Fengying Xie, Zhiguo Jiang</div>
+            <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2206.13156.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/zhengyushan/kat" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Lesion-Aware Contrastive Representation Learning For Histopathology Whole Slide Images Analysis <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_27" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Jun Li, Yushan Zheng*, Kun Wu, Jun Shi*, Fengying Xie, Zhiguo Jiang</div>
+            <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2206.13115" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/junl21/lacl" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
+            <div class="publication-title">Global-local attention network for weakly supervised cervical cytology ROI analysis <a href="https://ieeexplore.ieee.org/abstract/document/9761640/" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Jun Shi*, Kun Wu, Yushan Zheng*, Yuxin He, Jun Li, Zhiguo Jiang and Lanlan Yu</div>
+            <div class="publication-venue">IEEE 19th International Symposium on Biomedical Imaging, 2022</div>
+            <div class="publication-links">
+              <a href="pdf/article_shi_isbi_2022.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
+          </div>
+          
+          <div class="publication-item">
             <div class="publication-title">Encoding Histopathology Whole Slide Images with Location-aware Graphs for Diagnostically Relevant Regions Retrieval <a href="https://doi.org/10.1016/j.media.2021.102308" target="_blank"><i class="fa fa-external-link"></i></a></div>
             <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Jun Shi*, Fengying Xie, Haopeng Zhang, Wei Luo, Dingyi Hu, Shujiao Sun, Zhongmin Jiang, and Chenghai Xue</div>
             <div class="publication-venue">Medical Image Analysis, 2022</div>
@@ -168,434 +457,115 @@
               Histopathological whole slide images (WSIs) are gigapixel images widely used in cancer diagnosis. Each WSI may include multiple diagnostically relevant regions, making them challenging to represent. Meanwhile, the spatial relationships between tissue regions are often diagnostically significant. This paper proposes a novel location-aware graph encoding network (LaGeNet) for representing histopathology WSIs that captures both region-wise feature representations and spatial relationships. Unlike existing multiple-instance learning (MIL) methods that focus solely on region features, our approach builds a location graph from region nodes with positional encoding and creates a diagnostic node for global feature learning. The model is trained end-to-end using a contrastive learning strategy to capture diagnostic similarities between WSIs. We evaluate our approach on five datasets from different organs, demonstrating superior performance in diagnostically-relevant region retrieval compared to state-of-the-art methods. Our LaGeNet framework provides an effective approach for encoding gigapixel histopathology images while preserving spatial information.
             </p>
           </div>
-
+          
+          <div class="year-header">2021</div>
           <div class="publication-item">
-            <img src="images/src/article_zheng_cmpb_2019.png" alt="Color normalization" class="publication-image featured-image" onclick="showModal(this)">
-            <div class="publication-title">Adaptive color deconvolution for histological WSI normalization <a href="https://www.sciencedirect.com/science/article/pii/S0169260718312161" target="_blank"><i class="fa fa-external-link"></i></a></div>
-            <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Haopeng Zhang, Fengying Xie, Jun Shi and Chenghai Xue</div>
-            <div class="publication-venue">Computer Methods and Programs in Biomedicine, 2019</div>
+            <div class="publication-title">Frequency-based convolutional neural network for efficient segmentation of histopathology whole slide images <a href="https://link.springer.com/chapter/10.1007/978-3-030-87359-4_47" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Wei Luo, Yushan Zheng, Dingyi Hu, Jun Li, Chenghai Xue, and Zhiguo Jiang</div>
+            <div class="publication-venue">International Conference on Image and Graphics (ICIG), 2021</div>
             <div class="publication-links">
-              <a href="pdf/article_zheng_cmpb_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-              <a href="javascript:toggleblock('zhengCMPB2019FeaturedAbs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
-              <a href="https://github.com/Zhengyushan/adaptive_color_deconvolution" target="_blank"><i class="fa fa-github"></i> Code</a>
+              <a href="pdf/article_luo_icig_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
             </div>
-            <p id="zhengCMPB2019FeaturedAbs" class="abstract" style="display: none;">
-              <b>Background and objective</b><br>
-              Color consistency of histological images is significant for developing reliable computer-aided diagnosis (CAD) systems. However, the color appearance of digital histological images varies across different specimen preparations, staining, and scanning situations. This variability affects the diagnosis and decreases the accuracy of CAD approaches. It is important and challenging to develop effective color normalization methods for digital histological images.
-              <br><br>
-              <b>Methods</b><br>
-              We proposed a novel adaptive color deconvolution (ACD) algorithm for stain separation and color normalization of hematoxylin-eosin-stained whole slide images (WSIs). To avoid artifacts and reduce the failure rate of normalization, multiple prior knowledges of staining are considered and embedded in the ACD model. To improve the capacity of color normalization for various WSIs, an integrated optimization is designed to simultaneously estimate the parameters of the stain separation and color normalization. The solving of ACD model and application of the proposed method involves only pixel-wise operation, which makes it very efficient and applicable to WSIs.
-              <br><br>
-              <b>Results</b><br>
-              The proposed method was evaluated on four WSI-datasets including breast, lung and cervix cancers and was compared with 6 state-of-the-art methods. The proposed method achieved the most consistent performance in color normalization according to the quantitative metrics. Through a qualitative assessment for 500 WSIs, the failure rate of normalization was 0.4% and the structure and color artifacts were effectively avoided. Applied to CAD methods, the area under receiver operating characteristic curve for cancer image classification was improved from 0.842 to 0.914. The average time of solving the ACD model is 2.97 s.
-            </p>
           </div>
           
           <div class="publication-item">
-            <img src="images/src/article_zheng_tmi_2018.png" alt="Histopathology image analysis" class="publication-image featured-image" onclick="showModal(this)">
-            <div class="publication-title">Histopathological Whole Slide Image Analysis Using Context-based CBIR <a href="http://ieeexplore.ieee.org/document/8265156/" target="_blank"><i class="fa fa-external-link"></i></a></div>
-            <div class="publication-authors">Yushan Zheng, Zhiguo Jiang, Haopeng Zhang*, Fengying Xie, Yibing Ma, Huaqiang Shi and Yu Zhao</div>
-            <div class="publication-venue">IEEE Transactions on Medical Imaging, 2018</div>
+            <div class="publication-title">Diagnostic Regions Attention Network (DRA-Net) for Histopathology WSI Recommendation and Retrieval <a href="https://ieeexplore.ieee.org/document/9385049" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Jun Shi, Fengying Xie, Haopeng Zhang, Huai Jianguo, Cao Ming, and Yang Xiaomiao</div>
+            <div class="publication-venue">IEEE Transactions on Medical Imaging, 2021</div>
             <div class="publication-links">
-              <a href="pdf/article_zheng_tmi_2018.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-              <a href="javascript:toggleblock('zhengTMI2018FeaturedAbs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
-              <a href="pdf/article_zheng_tmi_2018_sup.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Supplementary Material</a>
+              <a href="pdf/article_zheng_tmi_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/Zhengyushan/dra_net" target="_blank"><i class="fa fa-github"></i> Code</a>
             </div>
-            <p id="zhengTMI2018FeaturedAbs" class="abstract" style="display: none;">
-              Histopathological image classification (HIC) and content-based histopathological image retrieval (CBHIR) are two promising applications for histopathological whole slide image (WSI) analysis. HIC can efficiently predict the type of lesion involved in a histopathological image. In general, HIC can aid pathologists in locating high-risk cancer regions from a WSI by providing a cancerous probability map for the WSI. In contrast, CBHIR was developed to allow searches for regions with similar content for a region of interest (ROI) from a database consisting of historical cases. Sets of cases with similar content are accessible to pathologists, which can provide more valuable references for diagnosis. A drawback of the recent CBHIR framework is that a query ROI needs to be manually selected from a WSI. An automatic CBHIR approach for a WSI-wise analysis needs to be developed. In this paper, we propose a novel aided-diagnosis framework of breast cancer using whole slide images, which shares the advantages of both HIC and CBHIR. In our framework, CBHIR is automatically processed throughout the WSI, based on which a probability map regarding the malignancy of breast tumors is calculated. Through the probability map, the malignant regions in WSIs can be easily recognized. Furthermore, the retrieval results corresponding to each sub-region of the WSIs are recorded during the automatic analysis and are available to pathologists during their diagnosis. Our method was validated on fully annotated WSI datasets of breast tumors. The experimental results certify the effectiveness of the proposed method.
-            </p>
-          </div>
-
-          <div class="publication-item">
-            <img src="images/src/article_zheng_pr_2017.jpg" alt="Feature extraction" class="publication-image featured-image" onclick="showModal(this)">
-            <div class="publication-title">Feature Extraction from Histopathological Images Based on Nucleus-guided Convolutional Neural Network for Breast Lesion Classification <a href="https://www.sciencedirect.com/science/article/pii/S0031320317302005?via%3Dihub" target="_blank"><i class="fa fa-external-link"></i></a></div>
-            <div class="publication-authors">Yushan Zheng, Zhiguo Jiang, Fengying Xie*, Haopeng Zhang, Yibing Ma, Huaqiang Shi and Yu Zhao</div>
-            <div class="publication-venue">Pattern Recognition, 2017</div>
-            <div class="publication-links">
-              <a href="pdf/article_zheng_pr_2017.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-              <a href="javascript:toggleblock('zhengPR2017FeaturedAbs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
-            </div>
-            <p id="zhengPR2017FeaturedAbs" class="abstract" style="display: none;">
-              Feature extraction is a crucial and challenging aspect in the computer-aided diagnosis of breast cancer with histopathological images. In recent years, many machine learning methods have been introduced to extract features from histopathological images. In this study, a novel nucleus-guided feature extraction framework based on convolutional neural network is proposed for histopathological images. The nuclei are first detected from images, and then used to train a designed convolutional neural network with three hierarchy structures. Through the trained network, image-level features including the pattern and spatial distribution of the nuclei are extracted. The proposed features are evaluated through the classification experiment on a histopathological image database of breast lesions. The experimental results show that the extracted features effectively represent histopathological images, and the proposed framework achieves a better classification performance for breast lesions than the compared state-of-the-art methods.
-            </p>
-          </div>
-
-        </div>
-        
-        <div class="view-all-button">
-          <a href="#publications" class="btn">Full publication list</a>
-        </div>
-      </section>
-      
-      <!-- Professional Activities Section -->
-      <section class="section" id="professional-activities">
-        <h2>Professional Activities</h2>
-        
-        <div class="activities-container">
-          <div class="activity-group">
-            <h3>Area Chair of</h3>
-            <ul>
-              <li>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2025</li>
-            </ul>
           </div>
           
-          <div class="activity-group">
-            <h3>Reviewer of</h3>
-            <ul>
-              <li>IEEE Transactions on Medical Imaging <span style="color: #0066cc; font-style: italic;">[2020,2022,2023,2024 Platinum-level Distinguised Reviewer]</span></li>
-              <li>Medical Image Analysis</li>
-              <li>IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
-              <li>IEEE Transactions on Neural Networks and Learning Systems</li>
-              <li>Advanced Science</li>
-              <li>IEEE Transactions on Fuzzy Systems</li>
-              <li>IEEE Journal of Biomedical and Health Informatics</li>
-              <li>Artificial Intelligence in Medicine</li>
-              <li>Computer Methods and Programs in Biomedicine</li>
-              <li>Computers in Biology and Medicine</li>
-              <li>IEEE Transactions on Computational Biology and Bioinformatics</li>
-              <li>IEEE Transactions on Circuits and Systems for Video Technology</li> 
-              <li>IEEE Journal of Translational Engineering in Health and Medicine</li>
-              <li>IEEE Transactions on Big Data</li>
-              <li>IEEE Transactions on Emerging Topics in Computational Intelligence</li>
-              <li>Physics in Medicine and Biology</li>
-              <li>Information Fusion</li>
-              <li>Bioinformatics</li>
-              <li>Neurocomputing</li>
-              <li>The American Journal of Pathology</li>
-              <li>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2020-2024 <span style="color: #0066cc; font-style: italic;">[2022 Outstanding Reviewer Award]</span></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      
-      <!-- Publications Section -->
-      <section class="section" id="publications">
-        <h2>Publications</h2>
-        
-        <div class="year-header">2025</div>
-        <div class="publication-item">
-          <div class="publication-title">Weakly supervised multi-modal contrastive learning framework for predicting the HER2 scores in breast cancer <a href="https://doi.org/10.1016/j.compmedimag.2025.102502" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Jun Shi, Dongdong Sun, Zhiguo Jiang, Jun Du, Wei Wang, Yushan Zheng*, Wu Haibo*</div>
-          <div class="publication-venue">Computerized Medical Imaging and Graphics, 2025</div>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-title">Pathology report generation from whole slide images with knowledge retrieval and multi-level regional feature selection <a href="https://doi.org/10.1016/j.cmpb.2025.108677" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, Yushan Zheng*</div>
-          <div class="publication-venue">Computer Methods and Programs in Biomedicine, 2025</div>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-title">A deep-learning model for predicting tyrosine kinase inhibitor response from histology in gastrointestinal stromal tumor <a href="https://doi.org/10.1002/path.6399" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Xue Kong#, Jun Shi#, Dongdong Sun#, Lanqing Cheng, Can Wu, Zhiguo Jiang, Yushan Zheng*, Wei Wang*, Haibo Wu*</div>
-          <div class="publication-venue">The Journal of Pathology, 2025</div>
-        </div>
-
-        <div class="publication-item">
-          <div class="publication-title">Promptable Representation Distribution Learning and Data Augmentation for Gigapixel Histopathology WSI Analysis <a href="https://arxiv.org/abs/2412.14473v1" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Kunming Tang, Zhiguo Jiang, Jun Shi, Wei Wang, Haibo Wu, Yushan Zheng*</div>
-          <div class="publication-venue">The 39th Annual AAAI Conference on Artificial Intelligence (AAAI), 2025</div>
-          <div class="publication-links">
-            <a href="pdf/article_tang_aaai_2025.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/lazytkm/PRDL" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="year-header">2024</div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Pan-cancer Histopathology WSI Pre-training with Position-aware Masked Autoencoder <a href="https://ieeexplore.ieee.org/document/10793237" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Kun Wu, Zhiguo Jiang, Kunming Tang, Jun Shi, Fengying Xie, Wei Wang, Haibo Wu, Yushan Zheng*</div>
-          <div class="publication-venue">IEEE Transactions on Medical Imaging, 2024</div>
-          <div class="publication-links">
-            <a href="https://arxiv.org/abs/2407.07504" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/WkEEn/PAMA" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Self-Supervised Representation Distribution Learning for Reliable Data Augmentation in Histopathology WSI Classification <a href="https://ieeexplore.ieee.org/document/10643565" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Kunming Tang, Zhiguo Jiang, Kun Wu, Jun Shi, Fengying Xie, Wei Wang, HaiboWu*, Yushan Zheng*</div>
-          <div class="publication-venue">IEEE Transactions on Medical Imaging, 2024</div>
-          <div class="publication-links">
-            <a href="pdf\article_tang_tmi_2024.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/lazytkm/SSRDL" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-            <div class="publication-title">Prediction of Epidermal Growth Factor Receptor Mutation Subtypes in Non--Small Cell Lung Cancer From Hematoxylin and Eosin--Stained Slides Using Deep Learning <a href="https://www.sciencedirect.com/science/article/pii/S0023683823001695" target="_blank"><i class="fa fa-external-link"></i></a></div>
-            <div class="publication-authors">Wanqiu Zhang#, Wei Wang#, Yao Xu#, Kun Wu#, Jun Shi, Ming Li, Zhengzhong Feng*, Yinhua Liu*, Yushan Zheng*, Haibo Wu*</div>
-            <div class="publication-venue">Laboratory Investigation, 2024</div>
-          </div>
-  
           <div class="publication-item">
-            <div class="publication-title">Report-Guided Cross-Modal Representation Learning for Predicting EGFR Mutations by Whole Slide Image <a href="https://ieeexplore.ieee.org/document/10476367" target="_blank"><i class="fa fa-external-link"></i></a></div>
-            <div class="publication-authors">Qi Qiao, Jun Shi, Zhiguo Jiang, Wei Wang, Haibo Wu, Yushan Zheng*</div>
-            <div class="publication-venue">2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2024</div>
+            <div class="publication-title">Stain standardization capsule for application-driven histopathological image normalization <a href="https://ieeexplore.ieee.org/document/9328191" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Haopeng Zhang, Fengying Xie, Dingyi Hu, Shujiao Sun, Jun Shi, and Chenghai Xue</div>
+            <div class="publication-venue">IEEE Journal of Biomedical and Health Informatics, 2021</div>
+            <div class="publication-links">
+              <a href="pdf/article_zheng_jbhi_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/Zhengyushan/sscat" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
           </div>
-
-        <div class="publication-item">
-          <div class="publication-title">Partial-Label Contrastive Representation Learning for Fine-grained Biomarkers Prediction from Histopathology Whole Slide Images <a href="https://ieeexplore.ieee.org/document/10599610" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng, Kun Wu, Jun Li, Kunming Tang, Jun Shi, Haibo Wu, Zhiguo Jiang*, and Wei Wang*</div>
-          <div class="publication-venue">IEEE Jounal of Biomedical and Health Informatics, 2024</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_jbhi_2024.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/WkEEn/PLCC" target="_blank"><i class="fa fa-github"></i> Code</a>
+          
+          <div class="year-header">2020</div>
+          <div class="publication-item">
+            <div class="publication-title">Tracing Diagnosis Paths on Histopathology WSIs for Diagnostically Relevant Case Recommendation <a href="https://doi.org/10.1007/978-3-030-59722-1_44" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Haopeng Zhang, Fengying Xie, and Jun Shi</div>
+            <div class="publication-venue">Medical Image Computing and Computer Assisted Interventions (MICCAI), 2020</div>
+            <div class="publication-links">
+              <a href="pdf/article_zheng_miccai_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/Zhengyushan/dpathnet" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Leveraging IHC Staining to Prompt HER2 Status Prediction from HE-Stained Histopathology Whole Slide Images <a href="https://link.springer.com/chapter/10.1007/978-3-031-73284-3_14" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yuping Wang, Dongdong Sun, Jun Shi, Wei Wang, Zhiguo Jiang, Haibo Wu, Yushan Zheng*</div>
-          <div class="publication-venue">MICCAI Workshop on Machine Learning in Medical Imaging, 2024</div>
-          <div class="publication-links">
-            <a href="pdf/article_wang_MLMI_2024.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+          
+          <div class="publication-item">
+            <div class="publication-title">Informative retrieval framework for histopathology whole slides images based on deep hashing network <a href="https://ieeexplore.ieee.org/document/9098680" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Dingyi Hu, Yushan Zheng*, Haopeng Zhang, Jun Shi, Fengying Xie, and Zhiguo Jiang</div>
+            <div class="publication-venue">IEEE 17th International Symposium on Biomedical Imaging (ISBI), 2020</div>
+            <div class="publication-links">
+              <a href="pdf/article_hu_isbi_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Lifelong Histopathology Whole Slide Image Retrieval via Distance Consistency Rehearsal <a href="https://arxiv.org/abs/2407.08153" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Xinyu Zhu, Zhiguo Jiang, Kun Wu, Jun Shi, and Yushan Zheng*</div>
-          <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024</div>
-          <div class="publication-links">
-            <a href="https://arxiv.org/pdf/2407.08153" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/OliverZXY/LWSR" target="_blank"><i class="fa fa-github"></i> Code</a>
+          
+          <div class="publication-item">
+            <div class="publication-title">Cancer Sensitive Cascaded Networks (CSC-Net) for Efficient Histopathology Whole Slide Image Segmentation <a href="https://ieeexplore.ieee.org/document/9098695/" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Shujiao Sun, Huining Yuan, Yushan Zheng*, Haopeng Zhang, Dingyi Hu, and Zhiguo Jiang</div>
+            <div class="publication-venue">IEEE 17th International Symposium on Biomedical Imaging (ISBI), 2020</div>
+            <div class="publication-links">
+              <a href="pdf/article_sun_isbi_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification <a href="https://arxiv.org/abs/2407.08968" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Tong Shu, Jun Shi, Dongdong Sun, Zhiguo Jiang, and Yushan Zheng*</div>
-          <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024</div>
-          <div class="publication-links">
-            <a href="https://arxiv.org/pdf/2407.08968" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/HFUT-miaLab/SlideGCD" target="_blank"><i class="fa fa-github"></i> Code</a>
+          
+          <div class="year-header">2019</div>
+          <div class="publication-item">
+            <div class="publication-title">Stain Standardization Capsule: A pre-processing module for histopathological image analysis <a href="https://openreview.net/forum?id=B1xPG55qZS" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Haopeng Zhang, Jun Shi, and Fengying Xie</div>
+            <div class="publication-venue">MICCAI Workshop -- Computational Pathology (COMPAY19)</div>
+            <div class="publication-links">
+              <a href="pdf/article_zheng_compay_2019_ssc.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+              <a href="https://github.com/Zhengyushan/ssc" target="_blank"><i class="fa fa-github"></i> Code</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Masked hypergraph learning for weakly supervised histopathology whole slide image classification <a href="https://www.sciencedirect.com/science/article/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Jun Shi, Tong Shu, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and Yushan Zheng*</div>
-          <div class="publication-venue">Computer Methods and Programs in Biomedicine, 2024</div>
-          <div class="publication-links">
-            <a href="https://github.com/HFUT-miaLab/MaskHGL" target="_blank"><i class="fa fa-github"></i> Code</a>
+          
+          <div class="publication-item">
+            <div class="publication-title">Encoding histopathological WSIs using GNN for scalable diagnostically relevant regions retrieval <a href="https://doi.org/10.1007/978-3-030-32239-7_61" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng*, Bonan Jiang, Jun Shi, Haopeng Zhang, and Fengying Xie</div>
+            <div class="publication-venue">Medical Image Computing and Computer Assisted Interventions (MICCAI), 2019</div>
+            <div class="publication-links">
+              <a href="pdf/article_zheng_miccai_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Genomics-Embedded Histopathology Whole Slide Image Encoding for Data-efficient Survival Prediction <a href="https://openreview.net/pdf?id=tvPboxOKBc" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Kun Wu, Zhiguo Jiang, Xinyu Zhu, Jun Shi, and Yushan Zheng*</div>
-          <div class="publication-venue">Medical Imaging with Deep Learning, 2024</div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Histopathology language-image representation learning for fine-grained digital pathology cross-modal retrieval <a href="https://www.sciencedirect.com/science/article/pii/S1361841524000884" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Dingyi Hu, Zhiguo Jiang, Jun Shi, Fengying Xie, Kun Wu, Kunming Tang, Ming Cao, Jianguo Huai, and Yushan Zheng*</div>
-          <div class="publication-venue">Medical Image Analysis, 2024</div>
-          <div class="publication-links">
-            <a href="https://github.com/hudingyi/FGCR" target="_blank"><i class="fa fa-github"></i> Code</a>
+          
+          <div class="publication-item">
+            <div class="publication-title">A Comparative Study of CNN and FCN for Histopathology Whole Slide Image Analysis <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-34110-7_47" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Shujiao Sun, Bonan Jiang, Yushan Zheng*, and Fengying Xie</div>
+            <div class="publication-venue">International Conference on Image and Graphics (ICIG), 2019</div>
+            <div class="publication-links">
+              <a href="pdf/article_sun_icig_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="year-header">2023</div>
-        <div class="publication-item">
-          <div class="publication-title">Position-Aware Masked Autoencoder for Histopathology WSI Representation Learning <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_69" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Kun Wu, Yushan Zheng*, Jun Shi*, Fengying Xie, and Zhiguo Jiang</div>
-          <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023</div>
-          <div class="publication-links">
-            <a href="https://github.com/WkEEn/PAMA" target="_blank"><i class="fa fa-github"></i> Code</a>
+          
+          <div class="publication-item">
+            <div class="publication-title">Content-based Histopathological Image Retrieval for Whole Slide Image Database Using Binary Codes <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10140/1/Content-based-histopathological-image-retrieval-for-whole-slide-image-database/10.1117/12.2253988.full?SSO=1" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Yibing Ma, Haopeng Zhang, Fengying Xie, Huaqiang Shi and Yu Zhao</div>
+            <div class="publication-venue">SPIE Medical Imaging, 2017</div>
+            <div class="publication-links">
+              <a href="pdf/article_zheng_spiemi_2017.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">A Key-Points Based Anchor-Free Cervical Cell Detector <a href="https://ieeexplore.ieee.org/abstract/document/10341092" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Tong Shu, Jun Shi*, Yushan Zheng*, Zhiguo Jiang, and Lanlan Yu</div>
-          <div class="publication-venue">IEEE Engineering in Medicine & Biology Society (EMBC), 2023</div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Cervical Cell Classification Using Multi-Scale Feature Fusion and Channel-Wise Cross-Attention <a href="https://ieeexplore.ieee.org/abstract/document/10230475" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Jun Shi, Xinyu Zhu, Yuan Zhang, Yushan Zheng*, Zhiguo Jiang, and Liping Zheng</div>
-          <div class="publication-venue">IEEE 20th International Symposium on Biomedical Imaging (ISBI), 2023</div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Kernel Attention Transformer for Histopathology Whole Slide Image Analysis and Assistant Cancer Diagnosis <a href="https://ieeexplore.ieee.org/document/10093771/" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng, Jun Li, Jun Shi*, Fengying Xie, Jianguo Huai, Ming Cao, and Zhiguo Jiang*</div>
-          <div class="publication-venue">IEEE Transactions on Medical Imaging, 2023</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/zhengyushan/kat" target="_blank"><i class="fa fa-github"></i> Code</a>
+          
+          <div class="publication-item">
+            <div class="publication-title">Retrieval of Pathology Image for Breast Cancer Using PLSA Model Based on Texture and Pathological Features <a href="https://ieeexplore.ieee.org/document/7025467/" target="_blank"><i class="fa fa-external-link"></i></a></div>
+            <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Jun Shi and Yibing Ma</div>
+            <div class="publication-venue">IEEE International Conference on Image Processing (ICIP), 2014</div>
+            <div class="publication-links">
+              <a href="pdf/article_zheng_icip_2014.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="year-header">2022</div>
-        <div class="publication-item">
-          <div class="publication-title">Histopathology Cross-Modal Retrieval based on Dual-Transformer Network <a href="https://ieeexplore.ieee.org/document/9973633/" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Dingyi Hu, Yushan Zheng*, Fengying Xie, Zhiguo Jiang, and Jun Shi</div>
-          <div class="publication-venue">IEEE International Conference on Bioinformatics and Bioengineering (BIBE), 2022</div>
-          <div class="publication-links">
-            <a href="pdf/article_hu_bibe_2023.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Kernel Attention Transformer (KAT) for Histopathology Whole Slide Image Classification <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_28" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng*, Jun Li, Jun Shi, Fengying Xie, Zhiguo Jiang</div>
-          <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
-          <div class="publication-links">
-            <a href="https://arxiv.org/pdf/2206.13156.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/zhengyushan/kat" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Lesion-Aware Contrastive Representation Learning For Histopathology Whole Slide Images Analysis <a href="https://link.springer.com/chapter/10.1007/978-3-031-16434-7_27" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Jun Li, Yushan Zheng*, Kun Wu, Jun Shi*, Fengying Xie, Zhiguo Jiang</div>
-          <div class="publication-venue">Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022</div>
-          <div class="publication-links">
-            <a href="https://arxiv.org/pdf/2206.13115" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/junl21/lacl" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Global-local attention network for weakly supervised cervical cytology ROI analysis <a href="https://ieeexplore.ieee.org/abstract/document/9761640/" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Jun Shi*, Kun Wu, Yushan Zheng*, Yuxin He, Jun Li, Zhiguo Jiang and Lanlan Yu</div>
-          <div class="publication-venue">IEEE 19th International Symposium on Biomedical Imaging, 2022</div>
-          <div class="publication-links">
-            <a href="pdf/article_shi_isbi_2022.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Encoding Histopathology Whole Slide Images with Location-aware Graphs for Diagnostically Relevant Regions Retrieval <a href="https://doi.org/10.1016/j.media.2021.102308" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Jun Shi*, Fengying Xie, Haopeng Zhang, Wei Luo, Dingyi Hu, Shujiao Sun, Zhongmin Jiang, and Chenghai Xue</div>
-          <div class="publication-venue">Medical Image Analysis, 2022</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_mia_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="javascript:toggleblock('ZhengMIA2022Abs')"><i class="fa fa-bookmark-o"></i> Abstract</a>
-            <a href="https://github.com/Zhengyushan/lagenet" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-          <p id="ZhengMIA2022Abs" class="abstract" style="display: none;">
-            Histopathological whole slide images (WSIs) are gigapixel images widely used in cancer diagnosis. Each WSI may include multiple diagnostically relevant regions, making them challenging to represent. Meanwhile, the spatial relationships between tissue regions are often diagnostically significant. This paper proposes a novel location-aware graph encoding network (LaGeNet) for representing histopathology WSIs that captures both region-wise feature representations and spatial relationships. Unlike existing multiple-instance learning (MIL) methods that focus solely on region features, our approach builds a location graph from region nodes with positional encoding and creates a diagnostic node for global feature learning. The model is trained end-to-end using a contrastive learning strategy to capture diagnostic similarities between WSIs. We evaluate our approach on five datasets from different organs, demonstrating superior performance in diagnostically-relevant region retrieval compared to state-of-the-art methods. Our LaGeNet framework provides an effective approach for encoding gigapixel histopathology images while preserving spatial information.
-          </p>
-        </div>
-        
-        <div class="year-header">2021</div>
-        <div class="publication-item">
-          <div class="publication-title">Frequency-based convolutional neural network for efficient segmentation of histopathology whole slide images <a href="https://link.springer.com/chapter/10.1007/978-3-030-87359-4_47" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Wei Luo, Yushan Zheng, Dingyi Hu, Jun Li, Chenghai Xue, and Zhiguo Jiang</div>
-          <div class="publication-venue">International Conference on Image and Graphics (ICIG), 2021</div>
-          <div class="publication-links">
-            <a href="pdf/article_luo_icig_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Diagnostic Regions Attention Network (DRA-Net) for Histopathology WSI Recommendation and Retrieval <a href="https://ieeexplore.ieee.org/document/9385049" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Jun Shi, Fengying Xie, Haopeng Zhang, Huai Jianguo, Cao Ming, and Yang Xiaomiao</div>
-          <div class="publication-venue">IEEE Transactions on Medical Imaging, 2021</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_tmi_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/Zhengyushan/dra_net" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Stain standardization capsule for application-driven histopathological image normalization <a href="https://ieeexplore.ieee.org/document/9328191" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng, Zhiguo Jiang*, Haopeng Zhang, Fengying Xie, Dingyi Hu, Shujiao Sun, Jun Shi, and Chenghai Xue</div>
-          <div class="publication-venue">IEEE Journal of Biomedical and Health Informatics, 2021</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_jbhi_2021.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/Zhengyushan/sscat" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="year-header">2020</div>
-        <div class="publication-item">
-          <div class="publication-title">Tracing Diagnosis Paths on Histopathology WSIs for Diagnostically Relevant Case Recommendation <a href="https://doi.org/10.1007/978-3-030-59722-1_44" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Haopeng Zhang, Fengying Xie, and Jun Shi</div>
-          <div class="publication-venue">Medical Image Computing and Computer Assisted Interventions (MICCAI), 2020</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_miccai_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/Zhengyushan/dpathnet" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Informative retrieval framework for histopathology whole slides images based on deep hashing network <a href="https://ieeexplore.ieee.org/document/9098680" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Dingyi Hu, Yushan Zheng*, Haopeng Zhang, Jun Shi, Fengying Xie, and Zhiguo Jiang</div>
-          <div class="publication-venue">IEEE 17th International Symposium on Biomedical Imaging (ISBI), 2020</div>
-          <div class="publication-links">
-            <a href="pdf/article_hu_isbi_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Cancer Sensitive Cascaded Networks (CSC-Net) for Efficient Histopathology Whole Slide Image Segmentation <a href="https://ieeexplore.ieee.org/document/9098695/" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Shujiao Sun, Huining Yuan, Yushan Zheng*, Haopeng Zhang, Dingyi Hu, and Zhiguo Jiang</div>
-          <div class="publication-venue">IEEE 17th International Symposium on Biomedical Imaging (ISBI), 2020</div>
-          <div class="publication-links">
-            <a href="pdf/article_sun_isbi_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="year-header">2019</div>
-        <div class="publication-item">
-          <div class="publication-title">Stain Standardization Capsule: A pre-processing module for histopathological image analysis <a href="https://openreview.net/forum?id=B1xPG55qZS" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Haopeng Zhang, Jun Shi, and Fengying Xie</div>
-          <div class="publication-venue">MICCAI Workshop -- Computational Pathology (COMPAY19)</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_compay_2019_ssc.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-            <a href="https://github.com/Zhengyushan/ssc" target="_blank"><i class="fa fa-github"></i> Code</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Encoding histopathological WSIs using GNN for scalable diagnostically relevant regions retrieval <a href="https://doi.org/10.1007/978-3-030-32239-7_61" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng*, Bonan Jiang, Jun Shi, Haopeng Zhang, and Fengying Xie</div>
-          <div class="publication-venue">Medical Image Computing and Computer Assisted Interventions (MICCAI), 2019</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_miccai_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">A Comparative Study of CNN and FCN for Histopathology Whole Slide Image Analysis <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-34110-7_47" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Shujiao Sun, Bonan Jiang, Yushan Zheng*, and Fengying Xie</div>
-          <div class="publication-venue">International Conference on Image and Graphics (ICIG), 2019</div>
-          <div class="publication-links">
-            <a href="pdf/article_sun_icig_2020.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Content-based Histopathological Image Retrieval for Whole Slide Image Database Using Binary Codes <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10140/1/Content-based-histopathological-image-retrieval-for-whole-slide-image-database/10.1117/12.2253988.full?SSO=1" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Yibing Ma, Haopeng Zhang, Fengying Xie, Huaqiang Shi and Yu Zhao</div>
-          <div class="publication-venue">SPIE Medical Imaging, 2017</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_spiemi_2017.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-        
-        <div class="publication-item">
-          <div class="publication-title">Retrieval of Pathology Image for Breast Cancer Using PLSA Model Based on Texture and Pathological Features <a href="https://ieeexplore.ieee.org/document/7025467/" target="_blank"><i class="fa fa-external-link"></i></a></div>
-          <div class="publication-authors">Yushan Zheng*, Zhiguo Jiang, Jun Shi and Yibing Ma</div>
-          <div class="publication-venue">IEEE International Conference on Image Processing (ICIP), 2014</div>
-          <div class="publication-links">
-            <a href="pdf/article_zheng_icip_2014.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF</a>
-          </div>
-        </div>
-      </section>
-    </div>
-    
-    <footer>
-      <div class="container">
-        <p>&copy; 2024 Yushan Zheng</p>
+        </section>
       </div>
-    </footer>
+    </div>
 
     <!-- JavaScript -->
     <script type="text/javascript">
