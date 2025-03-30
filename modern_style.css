@@ -50,6 +50,13 @@ body {
   top: 40px;
 }
 
+.bio-content p {
+  padding: 0 10px;
+  text-align: justify;
+  color: rgb(255, 255, 255); /* 纯白色 */
+}
+
+
 .profile-img {
   width: 300px;
   height: 300px;
@@ -80,7 +87,7 @@ body {
 }
 
 .contact-info p {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .contact-info i {
@@ -194,9 +201,6 @@ body {
     margin: 0 auto 15px;
   }
 
-  .bio-content {
-    padding: 0 10px;
-  }
 
   .bio-details li {
     flex-direction: column;
@@ -247,10 +251,6 @@ body {
 
   .publication-links a {
     font-size: 0.9rem;
-  }
-
-  .bio-content p {
-    font-size: 0.95rem;
   }
 
   .bio-details h3 {
@@ -524,77 +524,6 @@ footer {
   
   .activity-group li {
     flex: 1 0 100%;
-  }
-}
-
-/* Bio Section Styles */
-.bio-content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.bio-content p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 30px;
-  color: var(--text-color);
-  text-align: left;
-}
-
-.bio-details {
-  text-align: left;
-  margin-top: 30px;
-}
-
-.bio-details h3 {
-  color: var(--secondary-color);
-  font-size: 1.3rem;
-  margin: 30px 0 15px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--secondary-color);
-  text-align: left;
-}
-
-.bio-details ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-  text-align: left;
-}
-
-.bio-details li {
-  margin-bottom: 12px;
-  line-height: 1.6;
-  display: flex;
-  align-items: flex-start;
-  text-align: left;
-}
-
-.bio-details .date {
-  min-width: 120px;
-  color: var(--secondary-color);
-  font-weight: 500;
-  margin-right: 15px;
-}
-
-.bio-details strong {
-  color: var(--primary-color);
-  font-weight: 600;
-  margin-right: 5px;
-}
-
-@media (max-width: 768px) {
-  .bio-content p {
-    font-size: 1rem;
-  }
-
-  .bio-details li {
-    flex-direction: column;
-  }
-
-  .bio-details .date {
-    margin-bottom: 5px;
   }
 }
 
